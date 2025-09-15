@@ -48,7 +48,6 @@ const Timer = () => {
                 <Box time={String(timeLeft.minutes).padStart(2, '0')} label="MINUTES" />
                 <Box time={String(timeLeft.seconds).padStart(2, '0')} label="SECONDS" />
             </div>
-           
         </section>
     );
 };

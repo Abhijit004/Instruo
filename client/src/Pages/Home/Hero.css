@@ -6,20 +6,8 @@
     color: #fff;
     padding-top: 5rem;
     height: max(100vh, 200px);
-    /* background: url('/assets/Home/robot-fight.webm') no-repeat center; */
+    background: url('/assets/Home/instruo-hero.svg') no-repeat center;
     background-size: cover;
-    position: relative;
-}
-
-.hero .video-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
-    opacity: 0.3;
 }
 
 .hero .title {
@@ -38,7 +26,6 @@
     color: var(--offwhite);
     margin: 1rem 0;
     padding: 0.4rem;
-    z-index: 1;
 }
 
 @media only screen and (max-width: 600px) {

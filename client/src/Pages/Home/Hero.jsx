@@ -7,15 +7,6 @@ import GlitchAnimator from "../../Components/GlitchAnimator/GlitchAnimator";
 const Hero = () => {
     return (
         <section className="hero">
-                <video
-                    className="video-background"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                >
-                    <source src="/assets/Home/hero-video.webm" type="video/mp4" />
-                </video>
             <div className="title">
                 <GlitchAnimator text="INSTRUO" />
             </div>
