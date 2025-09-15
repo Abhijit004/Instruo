@@ -1,0 +1,85 @@
+:root {
+  --bg: #0b0b0f;
+  --muted: #98a2b3;
+  --card: #0f1724;
+  --accent: #111827;
+}
+
+.sponsors-page {
+  min-height: 100vh;
+  background: var(--bg);
+  color: #e6eef8;
+  padding-bottom: 4rem;
+}
+
+.sponsors-hero {
+  text-align: center;
+  padding: 3.5rem 1rem 2rem;
+}
+
+.sponsors-heading {
+  font-family: 'Bangers', 'Impact', sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: 1px;
+  text-shadow: 0 6px 0 rgba(0,0,0,0.6);
+  margin: 0 0 0.25rem;
+}
+
+.sponsors-sub {
+  color: var(--muted);
+  margin: 0 auto;
+  max-width: 70ch;
+}
+
+.sponsors-list {
+  width: 92%;
+  margin: 2rem auto 0;
+  max-width: 1200px;
+}
+
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.sponsor-item {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(18px) scale(0.98);
+  transition: all 420ms cubic-bezier(.2,.9,.2,1);
+  box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+}
+
+.sponsor-item.reveal {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.sponsor-img {
+  max-width: 160px;
+  max-height: 90px;
+  object-fit: contain;
+  background: #fff;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.sponsor-caption {
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 640px) {
+  .sponsors-heading { font-size: 2rem; }
+  .sponsor-img { max-width: 120px; }
+}

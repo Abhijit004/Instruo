@@ -12,13 +12,12 @@ const AboutUs = () => {
                 <div className="dbox" spanner="instruo">
                     <h2>Instruo 14</h2>
                     <p>
-                        INSTRUO, the Annual Technical Fest of IIEST Shibpur, is all about “Driving Innovation.” Since its humble beginnings in 2009, it has grown to become the largest tech-fest in Kolkata and the second largest in Eastern India, a landmark in the region’s technical calendar.
-                        <br/>
-                        <br/>
-                        This year, we proudly bring to you INSTRUO 2025 – The 14th Edition, a grander and more vibrant version of the legacy. With an ever-expanding spectrum of events, INSTRUO promises an experience like no other—ranging from cutting-edge robotics and adrenaline-pumping Robowars to thought-provoking literary contests and engaging workshops led by experts. From coding battles that test logic and skill, to exhibitions that highlight futuristic ideas, and from cultural expressions to high-tech competitions, every moment at INSTRUO is crafted to inspire, challenge, and excite.
-                        <br/>
-                        <br/>
-                        Join us from February 14th to 16th, 2025, at the historic IIEST Shibpur campus, and be part of a celebration that promises innovation, excitement, and unforgettable experiences.
+                        INSTRUO, the Annual Technical Fest of IIEST, Shibpur, is all about “Driving Innovation.” From a
+                        modest and humble beginning in 2009 to becoming the largest Tech-Fest of Kolkata and the second
+                        largest in Eastern India, it has skyrocketed its way to being a signature event in Kolkata's "
+                        technical " calendars. This year “INSTRUO 2025 - THE 13TH EDITION”. So, be ready to witness the
+                        unique magnanimity of INSTRUO packed with a humongous number of events ranging from technical
+                        and high-end Robowars to beautiful and surreal literary contests.
                     </p>
                 </div>
                 <div className="dbox " spanner="instruo2">
@@ -51,30 +50,25 @@ const AboutUs = () => {
                 </div>
             </section>
             <section className="college">
-                <div className="left">
-                    <h2>IIEST SHibpur</h2>
-                    <p>
-                        Since its foundation in the mid-19th century, the Indian Institute of Engineering Science and
-                        Technology, Shibpur, erstwhile The Bengal Engineering College, is the second oldest engineering
-                        college across the Indian subcontinent and has ceaselessly striven hard to contribute to the
-                        development of the nation. Acknowledged as an Institute of National Importance, ranked 49th in
-                        the 2024 NIRF Rankings and 401 450 in the QS Asia Ranking 2023. IIEST has a rich history, and
-                        its campus features stunning colonial architecture and verdant surroundings that reflect its
-                        profound historical heritage.
-                        <br />
-                        <br />
-                        The institute offers a plethora of festivals, seminars, and events that celebrate diversity,
-                        creativity, and innovation. It has an immense alumni base furnishing not only the engineering
-                        industry but also across the fields of science, culture, art, and politics. IIEST is recognized
-                        for its academic excellence, cutting-edge research, and contributions to engineering and
-                        technology. It is renowned for its research output and collaborations with leading industries
-                        and academic institutions globally. Their contributions in various sectors foster lasting
-                        relationships and drive innovation, strengthening the institute's legacy.
-                    </p>
-                </div>
-                <div className="right">
-                    <img src="/assets/Home/instruo-college-pic.svg" alt="college" />
-                </div>
+                <h2>IIEST SHibpur</h2>
+                <p>
+                    Since its foundation in the mid-19th century, the Indian Institute of Engineering Science and
+                    Technology, Shibpur, erstwhile The Bengal Engineering College, is the second oldest engineering
+                    college across the Indian subcontinent and has ceaselessly striven hard to contribute to the
+                    development of the nation. Acknowledged as an Institute of National Importance, ranked 49th in the
+                    2024 NIRF Rankings and 401 450 in the QS Asia Ranking 2023. IIEST has a rich history, and its campus
+                    features stunning colonial architecture and verdant surroundings that reflect its profound
+                    historical heritage.
+                    <br />
+                    <br />
+                    The institute offers a plethora of festivals, seminars, and events that celebrate diversity,
+                    creativity, and innovation. It has an immense alumni base furnishing not only the engineering
+                    industry but also across the fields of science, culture, art, and politics. IIEST is recognized for
+                    its academic excellence, cutting-edge research, and contributions to engineering and technology. It
+                    is renowned for its research output and collaborations with leading industries and academic
+                    institutions globally. Their contributions in various sectors foster lasting relationships and drive
+                    innovation, strengthening the institute's legacy.
+                </p>
             </section>
         </section>
     );
