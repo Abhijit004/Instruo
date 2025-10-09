@@ -59,11 +59,13 @@ const SponsorsPage = () => {
 				<div className="sponsors-grid" ref={gridRef}>
 					{logos.map((file, i) => (
 						<figure key={i} className="sponsor-item">
-							<img
-								className="sponsor-img"
-								src={`/assets/logo/${file}`}
-								alt={tidyName(file)}
-							/>
+							<div className="sponsor-img-box">
+								<img
+									className="sponsor-img"
+									src={`/assets/logo/${file}`}
+									alt={tidyName(file)}
+								/>
+							</div>
 							<figcaption className="sponsor-caption">{tidyName(file)}</figcaption>
 						</figure>
 					))}
