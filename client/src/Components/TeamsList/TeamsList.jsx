@@ -57,9 +57,9 @@ const TeamsList = ({ teamsData }) => {
                             {row.map((e) => {
                                 return (
                                     <Member
-                                        name={'Sample Name'}
+                                        name={e.name}
                                         position={e.position}
-                                        src={"/assets/ProfilePic/profilepic.png"}
+                                        src={e.imag ? e.img : "/assets/ProfilePic/profilepic.png"}
                                         key={ukey++}
                                     />
                                 );

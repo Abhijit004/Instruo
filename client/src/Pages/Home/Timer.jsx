@@ -41,6 +41,9 @@ const Timer = () => {
 
     return (
         <section className="timer">
+            <div className="plane">
+                <img src="/assets/Home/instruo-plane.svg" alt="plane" />
+            </div>
             <div className="heading">Coming Soon</div>
             <div className="countdown">
                 <Box time={String(timeLeft.days).padStart(2, '0')} label="DAYS" />

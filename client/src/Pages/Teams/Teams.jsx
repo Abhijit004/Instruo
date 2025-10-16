@@ -5,6 +5,7 @@ import Member from "../../Components/Member/Member";
 import TeamsList from "../../Components/TeamsList/TeamsList";
 import { Collapse } from "antd";
 import { CaretRightOutlined, CaretDownOutlined } from "@ant-design/icons";
+import GlitchAnimator from "../../Components/GlitchAnimator/GlitchAnimator";
 
 const CustomExpandIcon = ({ isActive }) => {
     return isActive ? (
@@ -25,7 +26,7 @@ const Teams = () => {
     }
     return (
         <section className="instruo-team">
-            <div className="heading">Meet our <br/><span>Supercharged</span> Team</div>
+            <div className="heading">Meet our <br/><span><GlitchAnimator text={"Supercharged"} styles={{fontSize: "3rem"}} /></span> Team</div>
             <div style={{
                 position: 'relative',
                 zIndex: '1',

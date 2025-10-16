@@ -50,25 +50,30 @@ const AboutUs = () => {
                 </div>
             </section>
             <section className="college">
-                <h2>IIEST SHibpur</h2>
-                <p>
-                    Since its foundation in the mid-19th century, the Indian Institute of Engineering Science and
-                    Technology, Shibpur, erstwhile The Bengal Engineering College, is the second oldest engineering
-                    college across the Indian subcontinent and has ceaselessly striven hard to contribute to the
-                    development of the nation. Acknowledged as an Institute of National Importance, ranked 49th in the
-                    2024 NIRF Rankings and 401 450 in the QS Asia Ranking 2023. IIEST has a rich history, and its campus
-                    features stunning colonial architecture and verdant surroundings that reflect its profound
-                    historical heritage.
-                    <br />
-                    <br />
-                    The institute offers a plethora of festivals, seminars, and events that celebrate diversity,
-                    creativity, and innovation. It has an immense alumni base furnishing not only the engineering
-                    industry but also across the fields of science, culture, art, and politics. IIEST is recognized for
-                    its academic excellence, cutting-edge research, and contributions to engineering and technology. It
-                    is renowned for its research output and collaborations with leading industries and academic
-                    institutions globally. Their contributions in various sectors foster lasting relationships and drive
-                    innovation, strengthening the institute's legacy.
-                </p>
+                <div className="left">
+                    <h2>IIEST Shibpur</h2>
+                    <p>
+                        Since its foundation in the mid-19th century, the Indian Institute of Engineering Science and
+                        Technology, Shibpur, erstwhile The Bengal Engineering College, is the second oldest engineering
+                        college across the Indian subcontinent and has ceaselessly striven hard to contribute to the
+                        development of the nation. Acknowledged as an Institute of National Importance, ranked 49th in
+                        the 2024 NIRF Rankings and 401 450 in the QS Asia Ranking 2023. IIEST has a rich history, and
+                        its campus features stunning colonial architecture and verdant surroundings that reflect its
+                        profound historical heritage.
+                        <br />
+                        <br />
+                        The institute offers a plethora of festivals, seminars, and events that celebrate diversity,
+                        creativity, and innovation. It has an immense alumni base furnishing not only the engineering
+                        industry but also across the fields of science, culture, art, and politics. IIEST is recognized
+                        for its academic excellence, cutting-edge research, and contributions to engineering and
+                        technology. It is renowned for its research output and collaborations with leading industries
+                        and academic institutions globally. Their contributions in various sectors foster lasting
+                        relationships and drive innovation, strengthening the institute's legacy.
+                    </p>
+                </div>
+                <div className="right">
+                    <img src="/assets/Home/instruo-college-pic.svg" alt="college" />
+                </div>
             </section>
         </section>
     );

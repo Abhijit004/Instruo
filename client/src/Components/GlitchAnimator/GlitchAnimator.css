@@ -20,12 +20,12 @@
 
 .glitch::after {
   color: #f0f;
-  z-index: -2;
+  z-index: -1;
 }
 
 .glitch::before {
   color: #0ff;
-  z-index: -1;
+  z-index: -2;
 }
 
 /* Active glitch effect */
@@ -44,10 +44,4 @@
   60%  { transform: translate(5px, 5px); }
   80%  { transform: translate(5px, -5px); }
   100% { transform: translate(0); }
-}
-
-@media only screen and (max-width: 900px) {
-    .glitch {
-        font-size: 5rem;
-    }
 }

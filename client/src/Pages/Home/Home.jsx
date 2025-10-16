@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import Timer from "./Timer";
 import AboutUs from "./AboutUs";
 import Ready from "./Ready";
+import Gallery from "./Gallery";
 
 const Home = () => {
     return (
@@ -12,7 +13,8 @@ const Home = () => {
             <Timer />
             <Hype />
             <AboutUs />
-            <Ready />
+            {/* <Ready /> */}
+            <Gallery />
         </div>
     );
 };

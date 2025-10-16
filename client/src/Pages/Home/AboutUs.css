@@ -38,12 +38,21 @@
 }
 
 .about-us .instruo14 .dbox[spanner="instruo"] {
-    grid-column: span 3;
+    grid-row: span 3;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #5abdeb1f;
 }
 
 .about-us .instruo14 .dbox[spanner="instruo2"] {
     width: 100%;
     outline: 1px solid color;
+    padding: 1.2rem;
+    transition: all 0.4s ease;
+}
+
+.about-us .instruo14 .dbox[spanner="instruo2"]:hover {
+    background-color: #836bef1f;
 }
 
 .about-us .instruo14 .dbox[spanner="instruo2"] h2 {
@@ -51,9 +60,20 @@
 }
 
 .about-us .college {
+    border-radius: 10px;
     padding: 1rem;
     width: min(1200px, 100%);
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #ea56561f;
+
+}
+
+.about-us .college .left {
+    width: 60%;
+    padding: 0.5rem;
 }
 
 .about-us .college h2 {
@@ -63,4 +83,36 @@
 
 .about-us .college p {
     color: #ffffff73;
+}
+
+.about-us .college .right {
+    width: 40%;
+}
+
+.about-us .college .right img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about-us p {
+    line-height: 1.45em;
+}
+
+@media screen and (max-width: 768px) {
+    .about-us .college .right {
+        display: none;
+    }
+
+    .about-us .college .left{
+        width: 100%;
+    }
+
+    .about-us .instruo14 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }

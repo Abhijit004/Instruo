@@ -1,0 +1,45 @@
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--app-background); /* Use CSS variable for background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+  animation: fadeOut 5s ease forwards;
+}
+
+/* .bulb {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 100rem;
+    background-color: gold;
+    z-index: -1;
+    box-shadow: 0 0 15px 15px gold;
+    opacity: 0;
+    animation: flicker 3s ;
+    animation-delay: 2s;
+} */
+
+@keyframes flicker {
+    100% { 
+        opacity: 1;
+        box-shadow: 0 0 20px 20px gold; 
+    }
+}
+
+@keyframes fadeOut {
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}

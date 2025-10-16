@@ -7,7 +7,7 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  
+
   --purple: #50379b;
   --pink: #8721b7;
   --dark-purple: #241d42;
@@ -20,25 +20,26 @@
   --app-background: #0a0a12;
   --app-width: 1200px;
   --navbar-height: 4rem;
-  
+
   --btn-gradient: linear-gradient(90deg, #72d5ff 0%, #c72dff 100%);
   --sponsor-title-gradient: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 0.3) 100%
-    );
-    --footer-background: linear-gradient(
-      to right,
-      rgba(217, 217, 217, 0.12) 0%,
-      rgba(115, 115, 115, 0.1) 100%
-      );
-    }
-    
-    body,
-    html {
-  font-family: "Inter", sans-serif;
+  );
+  --footer-background: linear-gradient(
+    to right,
+    rgba(217, 217, 217, 0.12) 0%,
+    rgba(115, 115, 115, 0.1) 100%
+  );
+}
+
+body,
+html {
+  font-family: 'Inter', sans-serif;
   background-color: var(--app-background);
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 #root {
   width: 100%;
@@ -100,7 +101,7 @@ a::selection {
 }
 
 .highlight {
-  font-family: "Rubik Glitch", cursive;
+  font-family: 'Rubik Glitch', cursive;
   font-weight: normal !important;
 }
 
@@ -111,7 +112,10 @@ button {
   text-transform: none !important;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Rubik Glitch', cursive;
   font-weight: 100;
 }

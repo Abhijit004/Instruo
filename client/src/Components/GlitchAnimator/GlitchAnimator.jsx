@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import "./GlitchAnimator.css";
 
-export default function GlitchAnimator({ text = "Explore" }) {
+export default function GlitchAnimator({ text, styles = {} }) {
   const glitchRef = useRef(null);
 
   useEffect(() => {
@@ -25,10 +25,10 @@ export default function GlitchAnimator({ text = "Explore" }) {
     timeoutId = setTimeout(triggerGlitch, 1000);
 
     return () => clearTimeout(timeoutId);
-  }, []);
+  }, [text]);
 
   return (
-    <div ref={glitchRef} className="glitch" data-glitch={text}>
+    <div ref={glitchRef} className="glitch" data-glitch={text} style={styles} >
       {text}
     </div>
   );

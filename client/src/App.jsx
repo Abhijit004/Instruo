@@ -1,18 +1,29 @@
-import { useState } from 'react'
-import { BrowserRouter as Router } from "react-router-dom";
+import { useState, useEffect } from 'react'
+import { BrowserRouter as Router, useLocation } from "react-router-dom";
 import AllRoutes from './Routes';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
+import Preloader from './Components/Preloader/Preloader';
+
+const ScrollToTop = ()=> {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // scrolls the page to top
+  }, [pathname]);
+
+  return null; // doesn't render anything
+}
 
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Navbar />
-        <AllRoutes />
-        <Footer />
-      </div>
+      <Preloader />
+      <ScrollToTop />
+      <Navbar />
+      <AllRoutes />
+      <Footer />
     </Router>
   )
 }

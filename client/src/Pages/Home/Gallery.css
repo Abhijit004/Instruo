@@ -1,0 +1,55 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 5rem;
+}
+
+.gallery .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gallery .container .header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gallery .container .header .title {
+  font-size: 4.5rem;
+  text-align: center;
+}
+.gallery .container .header .description {
+  color: #ffffff73;
+  width: min(60ch, 100%);
+  text-align: center;
+  line-height: 1.45em;
+  padding: 0.5rem;
+}
+
+.gallery .container .gallery-img {
+  width: 100%;
+  padding: 1rem;
+}
+
+.gallery .container .gallery-img img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .gallery .container .header .title {
+    font-size: 3rem;
+  }
+}
