@@ -50,26 +50,30 @@ const SingleEvent = () => {
                             <img src={oneEvent.poster} alt={'Poster'} />
                         </div>
                     </div>
-                    <Alert
-                        className="event-alert"
-                        message="Registrations still open."
-                        type="success"
-                        showIcon
-                        style={{
-                            background: 'transparent',
-                            color: 'greenyellow',
-                            borderColor: 'greenyellow',
-                            margin: '2rem 0rem',
-                        }}
-                    />
-                    {oneEvent?.registrationUrl && (
-                        <CustomButton
-                            text="Register Now"
-                            onClick={() =>
-                                window.open(oneEvent?.registrationUrl, '_blank')
-                            }
-                        />
-                    )}
+                    <div>
+                        {oneEvent?.venue && (
+                            <div
+                                style={{
+                                    margin: '1rem 0',
+                                    fontSize: '1.5rem',
+                                }}
+                            >
+                                <EnvironmentOutlined /> {oneEvent.venue}
+                            </div>
+                        )}
+                        {oneEvent?.registrationUrl && (
+                            <CustomButton
+                                text="Register Now"
+                                style={{ margin: '2rem 0' }}
+                                onClick={() =>
+                                    window.open(
+                                        oneEvent?.registrationUrl,
+                                        '_blank'
+                                    )
+                                }
+                            />
+                        )}
+                    </div>
                 </div>
             </div>
 
@@ -111,33 +115,12 @@ const SingleEvent = () => {
                 </div>
             </div>
 
-            <div className="rounds" style={{ padding: '1rem' }}>
+            {oneEvent.rounds && <div className="rounds" style={{ padding: '1rem' }}>
                 <div className="schedule-title">Event Rounds</div>
                 <div className="rounds-list">
                     <RoundsTable rounds={oneEvent.rounds} />
                 </div>
-            </div>
-            <div>
-                {oneEvent?.venue && (
-                    <div
-                        style={{
-                            margin: '1rem 0',
-                            fontSize: '1.5rem',
-                        }}
-                    >
-                        <EnvironmentOutlined /> {oneEvent.venue}
-                    </div>
-                )}
-                {oneEvent?.registrationUrl && (
-                    <CustomButton
-                        text="Register Now"
-                        style={{ margin: '2rem 0' }}
-                        onClick={() =>
-                            window.open(oneEvent?.registrationUrl, '_blank')
-                        }
-                    />
-                )}
-            </div>
+            </div>}
         </div>
     );
 };
