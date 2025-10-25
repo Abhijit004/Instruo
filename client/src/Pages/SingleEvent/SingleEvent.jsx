@@ -5,7 +5,7 @@ import CustomAvatar from './CustomAvatar';
 import allEvents from '../../assets/events.json';
 import { Alert } from 'antd';
 import GlitchAnimator from '../../Components/GlitchAnimator/GlitchAnimator';
-import { FieldTimeOutlined } from '@ant-design/icons';
+import { FieldTimeOutlined, EnvironmentOutlined } from '@ant-design/icons';
 import PageNotFound from '../PageNotFound/PageNotFound';
 import CustomButton from '../../Components/CustomButton/CustomButton';
 
@@ -47,7 +47,7 @@ const SingleEvent = () => {
               <img src={oneEvent.poster} alt={'Poster'} />
             </div>
           </div>
-          <Alert
+          {/* <Alert
             className="event-alert"
             message="Registrations still open."
             type="success"
@@ -58,9 +58,14 @@ const SingleEvent = () => {
               borderColor: "greenyellow",
               margin: "2rem 0rem"
             }}
-          />
+          /> */}
+          {oneEvent?.venue && <div style = {{
+            margin: "1rem 0",
+            fontSize: "1.5rem"
+          }}><EnvironmentOutlined />  {oneEvent.venue}</div> }
           {oneEvent?.registrationUrl && <CustomButton
             text="Register Now"
+            style={{ margin: '2rem 0' }}
             onClick={() => window.open(oneEvent?.registrationUrl, '_blank')}
           /> }
         </div>
