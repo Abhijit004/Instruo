@@ -3,7 +3,6 @@ import Hype from "./Hype";
 import Hero from "./Hero";
 import Timer from "./Timer";
 import AboutUs from "./AboutUs";
-import Ready from "./Ready";
 import Gallery from "./Gallery";
 import DownloadApp from "./DownloadApp";
 
@@ -15,7 +14,7 @@ const Home = () => {
             <Hype />
             <AboutUs />
             <Gallery />
-            {/* <DownloadApp /> */}
+            <DownloadApp />
         </div>
     );
 };

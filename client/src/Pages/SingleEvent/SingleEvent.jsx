@@ -7,6 +7,7 @@ import { Alert } from 'antd';
 import GlitchAnimator from '../../Components/GlitchAnimator/GlitchAnimator';
 import { FieldTimeOutlined } from '@ant-design/icons';
 import PageNotFound from '../PageNotFound/PageNotFound';
+import CustomButton from '../../Components/CustomButton/CustomButton';
 
 const SingleEvent = () => {
   const { eventID } = useParams();
@@ -58,12 +59,26 @@ const SingleEvent = () => {
               margin: "2rem 0rem"
             }}
           />
+          {oneEvent?.registrationUrl && <CustomButton
+            text="Register Now"
+            onClick={() => window.open(oneEvent?.registrationUrl, '_blank')}
+          /> }
         </div>
       </div>
 
       {/* Content Below */}
       <div className="event-single-content">
         <p className="event-single-description">{oneEvent.description}</p>
+        <ul style={{
+          paddingLeft: "1rem",
+          paddingTop: "2rem",
+          listStyleType: "none",
+
+        }}>
+          {oneEvent?.description_points?.map((points, index)=>{
+            return <li key={index}>{points}</li>
+          })}
+        </ul>
       </div>
 
       <div

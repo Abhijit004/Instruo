@@ -34,7 +34,7 @@ const Events = () => {
                     } else if (day === 2) {
                         dayThreeTemp.push(e);
                     } else {
-                        // Push events to default dayOne for now
+                        // Push pre-events to default dayOne
                         dayOneTemp.push(e);
                     }
                 });

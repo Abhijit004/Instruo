@@ -14,7 +14,13 @@
   color: #fff;
   width: min-content;
   border-radius: 0.5rem;
-  box-shadow: 0 0 50px 10px var(--sky);
+  position: relative;
+  z-index: 10;
+  /* box-shadow: 0 0 50px 10px var(--sky); */
+}
+
+.download-app * {
+  z-index: 100;
 }
 
 .download-app .content {
@@ -24,7 +30,6 @@
   flex-direction: column;
   width: max(30vw, min-content);
   padding: 2rem;
-
   h1 {
     font-size: 3rem;
   }
@@ -42,13 +47,13 @@
 
 
 .download-app .content .qrcode {
-  width: 10rem;
+  width: 8rem;
   height: auto;
-  padding: 0.5rem;
+  padding: 1rem;
   margin: 1rem;
   border: 1px solid #4a4a4a;
   border-radius: 0.5rem;
-    transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .download-app .content .qrcode:hover {
@@ -65,7 +70,7 @@
   height: 100%;
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
-  background-color: rgb(46, 46, 46);
+  background-color: transparent;
 }
 
 .download-app .design img {

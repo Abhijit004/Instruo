@@ -71,6 +71,31 @@
     color: #9ca3af;
 }
 
+.apk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0.5rem;
+    border: 0.5px solid #aeaeae;
+    border-radius: 0.4rem;
+    margin: 1rem 0;
+    background: #171717;
+    transition: all 0.2s ease;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.apk:hover {
+    background: #3b3b3b;
+    border-color: #9ca3af;
+    cursor: pointer;
+}
+
+.apk img {
+    height: 1.5rem;
+}
+
 .nf .fcontent .people {
     display: flex;
     justify-content: center;

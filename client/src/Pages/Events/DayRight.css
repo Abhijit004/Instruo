@@ -71,15 +71,14 @@
     z-index: 0;
 }
 
-.dayright .content .event-scroll::-webkit-scrollbar {
-    height: 5px;
-    background-color: var(--app-background);
-}
-
 .dayright .content .event-scroll::-webkit-scrollbar-thumb {
     width: 5px !important;
-    border-radius: 10px;
-    background: var(--purple);
+    transition: all 1s ease !important;
+    /* background: var(--purple); */
+}
+.dayright .content .event-scroll::-webkit-scrollbar-thumb:hover {
+    cursor: pointer !important;
+    background: rgb(129, 0, 242) !important
 }
 .dayright .content .event-scroll::-webkit-scrollbar-button,
 .dayright .content .event-scroll::-webkit-scrollbar-corner {

@@ -68,14 +68,18 @@
 }
 
 .dayleft .content .event-scroll::-webkit-scrollbar {
-    height: 5px;
+    height: 10px;
     background-color: var(--app-background);
 }
 
 .dayleft .content .event-scroll::-webkit-scrollbar-thumb {
     width: 5px !important;
-    border-radius: 10px;
-    background: var(--purple);
+    transition: all 1s ease !important;
+    /* background: var(--purple); */
+}
+.dayleft .content .event-scroll::-webkit-scrollbar-thumb:hover {
+    cursor: pointer !important;
+    background: rgb(129, 0, 242) !important
 }
 .dayleft .content .event-scroll::-webkit-scrollbar-button,
 .dayleft .content .event-scroll::-webkit-scrollbar-corner {

@@ -1,3 +1,4 @@
+import { DownloadOurApp } from "../../App";
 import "./Footer.css";
 import logo from "/logo.svg";
 import {
@@ -86,6 +87,9 @@ const Footer = () => {
                         excellence. Join us to experience the pinnacle of
                         technology, creativity, and learning!
                     </p>
+
+                    <button onClick={()=>window.open(DownloadOurApp, "_blank")} className="apk"><img src="/assets/github-icon.svg" />Download the app</button>
+
                     <div style={{ marginTop: "1.5rem", fontSize: "1.2rem" }}>
                         Socials
                     </div>
@@ -134,7 +138,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="nf-end">
-                <p>Copyright © 2025 Instruo. All rights reserved</p>
+                <p>Copyright © 2025 Instruo. All rights reserved.</p>
             </div>
         </footer>
     );

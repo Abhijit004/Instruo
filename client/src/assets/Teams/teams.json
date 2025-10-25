@@ -415,6 +415,11 @@
                 "img": "./assets/Team/bhumika_verma.webp"
             },
             {
+                "name": "Raunak Sarkar",
+                "position": "Head",
+                "img": "./assets/Team/raunak_sarkar.webp"
+            },
+            {
                 "name": "Supriyo Barman",
                 "position": "Executive",
                 "img": "./assets/Team/supriyo_barman.webp"
