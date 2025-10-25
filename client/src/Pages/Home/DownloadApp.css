@@ -47,11 +47,9 @@
 
 
 .download-app .content .qrcode {
-  width: 8rem;
-  height: auto;
   padding: 1rem;
   margin: 1rem;
-  border: 1px solid #4a4a4a;
+  border: 1px solid #717171;
   border-radius: 0.5rem;
   transition: all 0.2s ease;
 }
