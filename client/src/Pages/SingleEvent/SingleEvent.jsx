@@ -61,7 +61,7 @@ const SingleEvent = () => {
                                 <EnvironmentOutlined /> {oneEvent.venue}
                             </div>
                         )}
-                        {oneEvent?.registrationUrl && (
+                        {oneEvent?.registrationUrl?(
                             <CustomButton
                                 text="Register Now"
                                 style={{ margin: '2rem 0' }}
@@ -72,7 +72,10 @@ const SingleEvent = () => {
                                     )
                                 }
                             />
-                        )}
+                        ):<Alert message="Register through app" type='info' showIcon style = {{
+                            background: "transparent",
+                            color: "#fff"
+                        }} />}
                     </div>
                 </div>
             </div>

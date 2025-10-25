@@ -21,10 +21,12 @@ import {
   LogoutOutlined,
   HomeOutlined,
   ShoppingOutlined,
+  DownloadOutlined,
 } from '@ant-design/icons';
 import DrawerSidebar from './SideBar';
 // import ProfileDropdown from "./ProfileDropdown";
 import './Navbar.css';
+import { DownloadOurApp } from '../../App';
 // import CustomButton from "../../components/CustomButton/CustomButton";
 
 const { Header } = Layout;
@@ -117,7 +119,18 @@ const Navbar = ({ user, login, logout }) => {
               >
                 <Link to="/team">Our Team</Link>
               </Menu.Item>
+              <Menu.Item
+                key="/app"
+                icon={<DownloadOutlined />}
+                style = {{
+                  color: "var(--sky)",
+                  textShadow: "0 0 5px var(--sky)"
+                }}
+              >
+                <Link to={DownloadOurApp}>Download App</Link>
+              </Menu.Item>
             </Menu>
+            
           </Header>
         </Layout>
       ) : (
