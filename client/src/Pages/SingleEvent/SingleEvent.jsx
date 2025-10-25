@@ -61,7 +61,7 @@ const SingleEvent = () => {
                                 <EnvironmentOutlined /> {oneEvent.venue}
                             </div>
                         )}
-                        {oneEvent?.registrationUrl && (
+                        {oneEvent?.registrationUrl ? (
                             <CustomButton
                                 text="Register Now"
                                 style={{ margin: '2rem 0' }}
@@ -71,6 +71,16 @@ const SingleEvent = () => {
                                         '_blank'
                                     )
                                 }
+                            />
+                        ) : (
+                            <Alert
+                                message="Register through app"
+                                type="info"
+                                showIcon
+                                style={{
+                                    background: 'transparent',
+                                    color: '#fff',
+                                }}
                             />
                         )}
                     </div>
@@ -115,12 +125,19 @@ const SingleEvent = () => {
                 </div>
             </div>
 
-            {oneEvent.rounds && <div className="rounds" style={{ padding: '1rem' }}>
-                <div className="schedule-title">Event Rounds</div>
-                <div className="rounds-list">
-                    <RoundsTable rounds={oneEvent.rounds} />
+            {oneEvent.rounds && (
+                <div className="rounds" style={{ padding: '1rem' }}>
+                    <div className="schedule-title">Event Rounds</div>
+                    <div className="rounds-list">
+                        <RoundsTable rounds={oneEvent.rounds} />
+                        {oneEvent?._id === 'eofool' && (
+                            <span style={{ fontSize: '0.1rem', color: "transparent" }}>
+                                EOF{'{f0und_m3_f!nally}'}
+                            </span>
+                        )}
+                    </div>
                 </div>
-            </div>}
+            )}
         </div>
     );
 };

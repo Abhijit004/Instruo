@@ -1,35 +1,24 @@
 import { useEffect, useState } from 'react';
 import {
   Layout,
-  Menu,
-  Space,
-  Avatar,
-  Dropdown,
-  ConfigProvider,
-  theme,
-  Button,
-  Divider,
+  Menu
 } from 'antd';
 import { Link, useLocation } from 'react-router-dom';
 import {
-  ToolOutlined,
   CalendarOutlined,
   DollarOutlined,
   TeamOutlined,
-  UserOutlined,
-  SettingOutlined,
-  LogoutOutlined,
   HomeOutlined,
   ShoppingOutlined,
+  DownloadOutlined,
 } from '@ant-design/icons';
 import DrawerSidebar from './SideBar';
-// import ProfileDropdown from "./ProfileDropdown";
 import './Navbar.css';
-// import CustomButton from "../../components/CustomButton/CustomButton";
+import { DownloadOurApp } from '../../App';
 
 const { Header } = Layout;
 
-const Navbar = ({ user, login, logout }) => {
+const Navbar = () => {
   const width = window.innerWidth;
   const [selectedKey, setSelectedKey] = useState(['/']);
   const location = useLocation();
@@ -117,7 +106,18 @@ const Navbar = ({ user, login, logout }) => {
               >
                 <Link to="/team">Our Team</Link>
               </Menu.Item>
+              <Menu.Item
+                key="/app"
+                icon={<DownloadOutlined />}
+                style = {{
+                  color: "var(--sky)",
+                  textShadow: "0 0 5px var(--sky)"
+                }}
+              >
+                <Link to={DownloadOurApp}>Download App</Link>
+              </Menu.Item>
             </Menu>
+            
           </Header>
         </Layout>
       ) : (
