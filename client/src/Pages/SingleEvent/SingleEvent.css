@@ -187,20 +187,6 @@
   }
 }
 
-.round-card {
-  background-color: #232323;
-  color: #ffffff;
-  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  border-radius: 4px;
-  box-shadow: var(--Paper-shadow);
-  background-image: var(--Paper-overlay);
-  padding: 0.5rem;
-  min-width: 260px;
-  padding-top: 1.5rem;
-  margin-top: 2rem;
-}
-
 .coords-list {
   display: flex;
   justify-content: start;
@@ -208,4 +194,18 @@
   flex-wrap: wrap;
   gap: 1rem;
   height: max-content;
+}
+
+th {
+    background-color: #080871 !important;
+    color: #fff !important;
+    font-size: 1.1rem !important;
+    font-family: 'Inter' !important;
+}
+
+td {
+    background-color: #083a98 !important;
+    color: #fff !important;
+    font-family: 'Inter' !important;
+    font-size: 1rem !important;
 }
