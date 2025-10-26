@@ -3,6 +3,7 @@ import './SingleEvent.css';
 import { useParams, useNavigate } from 'react-router-dom';
 import CustomAvatar from './CustomAvatar';
 import allEvents from '../../assets/events.json';
+import allPosters from "../../assets/event_to_poster.json"
 import { Alert } from 'antd';
 import GlitchAnimator from '../../Components/GlitchAnimator/GlitchAnimator';
 import { FieldTimeOutlined, EnvironmentOutlined } from '@ant-design/icons';
@@ -12,6 +13,7 @@ import RoundsTable from './RoundsTable';
 const SingleEvent = () => {
     const { eventID } = useParams();
     const oneEvent = allEvents.find((ev) => ev._id === eventID);
+    console.log(allPosters[oneEvent.poster.split("/")[3].split(".")[0]])
 
     if (!oneEvent) {
         return <PageNotFound />;
@@ -34,8 +36,8 @@ const SingleEvent = () => {
                 <div className="event-single-overlay">
                     <div className="eposter">
                         {/* <div className="regfee">Fee ₹ {oneEvent?.registrationFee || "--"}</div> */}
-                        <img src={oneEvent.poster} alt={'Poster'} />
-                    </div>
+                        <img src={allPosters[oneEvent.poster.split("/")[3].split(".")[0]]} alt={'Poster'} />
+                    </div>  
                     <div className="event-single-header">
                         <span className="event-single-badge">
                             {oneEvent?.type || 'Type TBD'}
@@ -47,7 +49,7 @@ const SingleEvent = () => {
                         </p>
                         <div className="eposter-mobile">
                             {/* <div className="regfee">Fee ₹ {oneEvent?.registrationFee || "--"}</div> */}
-                            <img src={oneEvent.poster} alt={'Poster'} />
+                            <img src={allPosters[oneEvent.poster.split("/")[3].split(".")[0]]} alt={'Poster'} />
                         </div>
                     </div>
                     <div>

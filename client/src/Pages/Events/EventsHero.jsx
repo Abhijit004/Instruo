@@ -34,5 +34,4 @@ const EventsHero = () => {
         </div>
     );
 };
-
 export default EventsHero;
