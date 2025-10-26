@@ -3,15 +3,17 @@ import './SingleEvent.css';
 import { useParams, useNavigate } from 'react-router-dom';
 import CustomAvatar from './CustomAvatar';
 import allEvents from '../../assets/events.json';
+import allPosters from "../../assets/event_to_poster.json"
 import { Alert } from 'antd';
 import GlitchAnimator from '../../Components/GlitchAnimator/GlitchAnimator';
-import { FieldTimeOutlined } from '@ant-design/icons';
+import { FieldTimeOutlined, EnvironmentOutlined } from '@ant-design/icons';
 import PageNotFound from '../PageNotFound/PageNotFound';
 import CustomButton from '../../Components/CustomButton/CustomButton';
 import RoundsTable from './RoundsTable';
 const SingleEvent = () => {
     const { eventID } = useParams();
     const oneEvent = allEvents.find((ev) => ev._id === eventID);
+    console.log(allPosters[oneEvent.poster.split("/")[3].split(".")[0]])
 
     if (!oneEvent) {
         return <PageNotFound />;
@@ -34,8 +36,8 @@ const SingleEvent = () => {
                 <div className="event-single-overlay">
                     <div className="eposter">
                         {/* <div className="regfee">Fee ₹ {oneEvent?.registrationFee || "--"}</div> */}
-                        <img src={oneEvent.poster} alt={'Poster'} />
-                    </div>
+                        <img src={allPosters[oneEvent.poster.split("/")[3].split(".")[0]]} alt={'Poster'} />
+                    </div>  
                     <div className="event-single-header">
                         <span className="event-single-badge">
                             {oneEvent?.type || 'Type TBD'}
@@ -47,30 +49,43 @@ const SingleEvent = () => {
                         </p>
                         <div className="eposter-mobile">
                             {/* <div className="regfee">Fee ₹ {oneEvent?.registrationFee || "--"}</div> */}
-                            <img src={oneEvent.poster} alt={'Poster'} />
+                            <img src={allPosters[oneEvent.poster.split("/")[3].split(".")[0]]} alt={'Poster'} />
                         </div>
                     </div>
-                    {/* <Alert
-                        className="event-alert"
-                        message="Registrations still open."
-                        type="success"
-                        showIcon
-                        style={{
-                            background: 'transparent',
-                            color: 'greenyellow',
-                            borderColor: 'greenyellow',
-                            margin: '2rem 0rem',
-                        }}
-                    /> */}
-                    {oneEvent?.registrationUrl && (
-                        <CustomButton
-                        style={{ marginTop: '1rem' }}
-                            text="Register Now"
-                            onClick={() =>
-                                window.open(oneEvent?.registrationUrl, '_blank')
-                            }
-                        />
-                    )}
+                    <div>
+                        {oneEvent?.venue && (
+                            <div
+                                style={{
+                                    margin: '1rem 0',
+                                    fontSize: '1.5rem',
+                                }}
+                            >
+                                <EnvironmentOutlined /> {oneEvent.venue}
+                            </div>
+                        )}
+                        {oneEvent?.registrationUrl ? (
+                            <CustomButton
+                                text="Register Now"
+                                style={{ margin: '2rem 0' }}
+                                onClick={() =>
+                                    window.open(
+                                        oneEvent?.registrationUrl,
+                                        '_blank'
+                                    )
+                                }
+                            />
+                        ) : (
+                            <Alert
+                                message="Register through app"
+                                type="info"
+                                showIcon
+                                style={{
+                                    background: 'transparent',
+                                    color: '#fff',
+                                }}
+                            />
+                        )}
+                    </div>
                 </div>
             </div>
 
@@ -112,12 +127,19 @@ const SingleEvent = () => {
                 </div>
             </div>
 
-            {oneEvent.rounds && <div className="rounds" style={{ padding: '1rem' }}>
-                <div className="schedule-title">Event Rounds</div>
-                <div className="rounds-list">
-                    <RoundsTable rounds={oneEvent.rounds} />
+            {oneEvent.rounds && (
+                <div className="rounds" style={{ padding: '1rem' }}>
+                    <div className="schedule-title">Event Rounds</div>
+                    <div className="rounds-list">
+                        <RoundsTable rounds={oneEvent.rounds} />
+                        {oneEvent?._id === 'eofool' && (
+                            <span style={{ fontSize: '0.1rem', color: "transparent" }}>
+                                EOF{'{f0und_m3_f!nally}'}
+                            </span>
+                        )}
+                    </div>
                 </div>
-            </div>}
+            )}
         </div>
     );
 };

@@ -14,14 +14,14 @@ const RoundsTable = ({ rounds }) => {
       title: "Start Time",
       dataIndex: "startTime",
       key: "startTime",
-      render: (text) => dayjs(text).format("DD MMM YYYY, HH:mm"),
+      render: (text) => text,
       responsive: ["xs", "sm", "md", "lg"],
     },
     {
       title: "End Time",
       dataIndex: "endTime",
       key: "endTime",
-      render: (text) => dayjs(text).format("DD MMM YYYY, HH:mm"),
+      render: (text) => text,
       responsive: ["xs", "sm", "md", "lg"],
     },
     {
@@ -45,6 +45,7 @@ const RoundsTable = ({ rounds }) => {
       scroll={{ x: "max-content" }}
       style={{ maxWidth: "700px", paddingTop: "20px" }}
       size="large"
+      
     />
   );
 };

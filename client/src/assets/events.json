@@ -1,652 +1,1074 @@
 [
     {
-      "_id": "rise-above",
-      "name": "Rise Above",
-      "description": "Get ready to take engineering to the skies! Rise Above is all about designing and flying your own RC aircraft that can lift off smoothly, carry a payload, and stay airborne like a boss. It's not just about flying—it’s about proving your aerodynamics game is strong.",
-      "poster": "/assets/posters/riseabove.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "1st Nov 2025, 9:30 AM",
-      "endTime": "2nd Nov 2025, 11:00 AM",
-      "rulesDoc": null,
-      "venue": "Lords",
-      "type": "Team",
-      "coordinators": [
-        {
-          "name": "Shlok Vyas",
-          "phone": "7779017229"
-        }
-      ]
+        "_id": "hacksprint",
+        "name": "HackSprint",
+        "description": "🎓 Exclusive for IIEST Shibpur Students! HackSprint Kolkata Edition — National Level Hackathon is happening at IIEST Shibpur, West Bengal on 1st & 2nd November 2025, powered by SR Technologies.",
+        "description_points": [
+            "🔥 Get an exclusive 50% discount on your registration — only for IIEST students!",
+            "🎯 Workshops on Artificial Intelligence / Machine Learning",
+            "🌐 MERN Stack Development with AI Integration",
+            "💡 Hackathon Domains: AI & ML | Generative AI | MERN + AI | Healthcare | Open Innovation",
+            "🏆 Prize Pool: ₹5,00,000/-",
+            "💼 Internships for top-performing teams!",
+            "🏢 Registration fee: 1000₹ for non-IIESTians, 750₹ for IIESTians.",
+            "📜 After registration fill this gform: https://forms.gle/oNfjrjwB5RS2YQwY8"
+        ],
+        "poster": "/assets/posters/hacksprint.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "https://hacksprint.in/",
+        "startTime": "1st Nov 2025, 12:00 AM",
+        "endTime": "2nd Nov 2025, 11:59 PM",
+        "rulesDoc": null,
+        "venue": "TBD",
+        "type": "Mixed",
+        "coordinators": [
+            {
+                "name": "Shreyansh Srivastva",
+                "phone": "8478090242"
+            },
+            {
+                "name": "Sujaan Sharma",
+                "phone": "9462480435"
+            }
+        ]
     },
     {
-      "_id": "hydroblast",
-      "name": "Hydroblast",
-      "description": "Launch it, watch it soar, and pray it lands where you aimed! Hydroblast is the ultimate water-rocket faceoff where brains meet blast. Design, pressurize, and launch your rocket for insane height or perfect accuracy. Physics just got a lot more fun (and a little wet).",
-      "poster": "/assets/posters/hydroblast.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "31st Oct 2025, 2:00 PM",
-      "endTime": "1st Nov 2025, 1:00 PM",
-      "rulesDoc": null,
-      "venue": "Lords",
-      "type": "Team",
-      "coordinators": [
-        {
-          "name": "Mehul Mehta",
-          "phone": "6291409117"
-        }
-      ]
+        "_id": "rise-above",
+        "name": "Rise Above",
+        "description": "Get ready to take engineering to the skies! Rise Above is all about designing and flying your own RC aircraft that can lift off smoothly, carry a payload, and stay airborne like a boss. It's not just about flying— it's about proving your aerodynamics game is strong.",
+        "poster": "/assets/posters/riseabove.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "1st Nov 2025, 9:30 AM",
+        "endTime": "2nd Nov 2025, 11:00 AM",
+        "rulesDoc": null,
+        "venue": "Lords",
+        "type": "Team",
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "1st Nov 2025, 9:30 AM",
+                "endTime": "1st Nov 2025, 11:00 AM",
+                "location": "Lords"
+            },
+            {
+                "roundNumber": "2",
+                "startTime": "2nd Nov 2025, 10:00 AM",
+                "endTime": "2nd Nov 2025, 11:30 AM",
+                "location": "Lords"
+            }
+        ],
+        "coordinators": [
+            {
+                "name": "Mehul Mehta",
+                "phone": "7973924794"
+            }
+        ]
     },
     {
-      "_id": "trusst-it",
-      "name": "TRUSST It",
-      "description": "Think popsicle sticks are weak? Think again. In TRUSST It, you’ll craft bridges strong enough to hold their own weight—and your pride. Precision, patience, and teamwork will decide who’s the ultimate bridge boss.",
-      "poster": "/assets/posters/trusstit.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "2nd Nov 2025, 10:00 AM",
-      "endTime": "2nd Nov 2025, 01:00 PM",
-      "rulesDoc": null,
-      "venue": "B22N Civil Dept.",
-      "type": "Team",
-      "coordinators": [
-        {
-          "name": "Harsh Gautam",
-          "phone": "9761311210"
-        }
-      ]
+        "_id": "hydroblast",
+        "name": "Hydroblast",
+        "description": "Launch it, watch it soar, and pray it lands where you aimed! Hydroblast is the ultimate water-rocket faceoff where brains meet blast. Design, pressurize, and launch your rocket for insane height or perfect accuracy. Physics just got a lot more fun (and a little wet).",
+        "poster": "/assets/posters/hydroblast.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st Oct 2025, 2:00 PM",
+        "endTime": "1st Nov 2025, 1:00 PM",
+        "rulesDoc": null,
+        "venue": "Lords",
+        "type": "Team",
+        "coordinators": [
+            {
+                "name": "Shlok Vyas",
+                "phone": "7779017229"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "31st Oct 2025, 2:00 PM",
+                "endTime": "31st Oct 2025, 4:00 PM",
+                "location": "Lords"
+            },
+            {
+                "roundNumber": "2",
+                "startTime": "1st Nov 2025, 11:00 AM",
+                "endTime": "1st Nov 2025, 1:00 PM",
+                "location": "Lords"
+            }
+        ]
     },
     {
-      "_id": "cad-catalyst",
-      "name": "Cad Catalyst",
-      "description": "Design nerds, this one’s yours! CAD Catalyst is where imagination meets solid modeling. Show off your skills in AutoCAD, Fusion 360, SolidWorks, or CATIA as you turn raw ideas into sleek 2D and 3D creations. It's all about speed, precision, and pure design swagger.",
-      "poster": "/assets/posters/cadcatalyst.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "31st Oct 2025, 6:00 PM",
-      "endTime": "1st Nov 2025, 1:00 PM",
-      "rulesDoc": null,
-      "venue": "Computer Centre UG1",
-      "type": "Single",
-      "coordinators": [
-        {
-          "name": "Ayush Dutta",
-          "phone": "8972851567"
-        }
-      ]
+        "_id": "trusst-it",
+        "name": "TRUSST It",
+        "description": "Think popsicle sticks are weak? Think again. In TRUSST It, you'll craft bridges strong enough to hold their own weight—and your pride. Precision, patience, and teamwork will decide who's the ultimate bridge boss.",
+        "poster": "/assets/posters/trusstit.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "2nd Nov 2025, 10:00 AM",
+        "endTime": "2nd Nov 2025, 01:00 PM",
+        "rulesDoc": null,
+        "venue": "B22N Civil Dept.",
+        "type": "Team",
+        "coordinators": [
+            {
+                "name": "Harsh Gautam",
+                "phone": "9761312100"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "2nd Nov 2025, 10:00 AM",
+                "endTime": "2nd Nov 2025, 1:00 PM",
+                "location": "B22N Civil Dept."
+            }
+        ]
     },
     {
-      "_id": "doped",
-      "name": "Doped",
-      "description": "Doped is where circuit nerds flex their brain cells! Dive deep into RLCs, logic gates, and semiconductors with quizzes that separate the pros from the poseurs. Two rounds of mind-bending questions await—no calculators, just pure voltage in your veins.",
-      "poster": "/assets/posters/doped.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "31st Oct 2025, 6:00 PM",
-      "endTime": "1st Nov 2025, 5:30 PM",
-      "rulesDoc": null,
-      "venue": "Gallery 8(ETC Department)",
-      "type": "Mixed",
-      "coordinators": [
-        {
-          "name": "Divyanand Tripathi",
-          "phone": "8305827941"
-        }
-      ]
+        "_id": "cad-catalyst",
+        "name": "Cad Catalyst",
+        "description": "Design nerds, this one's yours! CAD Catalyst is where imagination meets solid modeling. Show off your skills in AutoCAD, Fusion 360, SolidWorks, or CATIA as you turn raw ideas into sleek 2D and 3D creations. It's all about speed, precision, and pure design swagger.",
+        "poster": "/assets/posters/cadcatalyst.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st Oct 2025, 6:00 PM",
+        "endTime": "1st Nov 2025, 1:00 PM",
+        "rulesDoc": null,
+        "venue": "Computer Centre UG1",
+        "type": "Single",
+        "coordinators": [
+            {
+                "name": "Ayush Dutta",
+                "phone": "8972851567"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "31st Oct 2025, 6:00 PM",
+                "endTime": "31st Oct 2025, 7:30 PM",
+                "location": "Computer Centre UG 1"
+            },
+            {
+                "roundNumber": "2",
+                "startTime": "1st Nov 2025, 11:00 AM",
+                "endTime": "1st Nov 2025, 1:00 PM",
+                "location": "IT Classroom 2"
+            }
+        ]
     },
     {
-      "_id": "wired-in",
-      "name": "Wired In",
-      "description": "Plug in and power up! Wired In is your shot to prove your electrical and electronics know-how. From brainy quizzes to on-the-spot circuit challenges, this event will test whether you’re truly wired for engineering.",
-      "poster": "/assets/posters/wiredin.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "1st Nov 2025, 10:00 AM",
-      "endTime": "2nd Nov 2025, 6:00 PM",
-      "rulesDoc": null,
-      "venue": "Gallery 4(AE & AM)",
-      "type": "Mixed",
-      "coordinators": [
-        {
-          "name": "Sumit Kr. Gupta",
-          "phone": "8858030143"
-        }
-      ]
+        "_id": "doped",
+        "name": "Doped",
+        "description": "Doped is where circuit nerds flex their brain cells! Dive deep into RLCs, logic gates, and semiconductors with quizzes that separate the pros from the poseurs. Two rounds of mind-bending questions await—no calculators, just pure voltage in your veins.",
+        "poster": "/assets/posters/doped.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st Oct 2025, 6:00 PM",
+        "endTime": "1st Nov 2025, 5:30 PM",
+        "rulesDoc": null,
+        "venue": "Gallery 8(ETC Department)",
+        "type": "Mixed",
+        "coordinators": [
+            {
+                "name": "Divyanand Tripathi",
+                "phone": "8305274961"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "31st Oct 2025, 6:00 PM",
+                "endTime": "31st Oct 2025, 7:30 PM",
+                "location": "Gallery 8 (ETC)"
+            },
+            {
+                "roundNumber": "2",
+                "startTime": "1st Nov 2025, 4:00 PM",
+                "endTime": "1st Nov 2025, 5:30 PM",
+                "location": "Gallery 8(ETC)"
+            }
+        ]
     },
     {
-      "_id": "hardness-hustle",
-      "name": "Hardness Hustle",
-      "description": "Description dropping soon — it’s going to be tougher than it sounds!",
-      "poster": "/assets/posters/hardnesshustle.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "31st Oct 2025, 6:30 PM",
-      "endTime": "2nd Nov 2025, 1:00 PM",
-      "rulesDoc": null,
-      "venue": "4th year MME Classroom",
-      "type": null,
-      "coordinators": [
-        {
-          "name": "Himanshu Kumar",
-          "phone": "7413920624"
-        }
-      ]
+        "_id": "wired-in",
+        "name": "Wired In",
+        "description": "Plug in and power up! Wired In is your shot to prove your electrical and electronics know-how. From brainy quizzes to on-the-spot circuit challenges, this event will test whether you're truly wired for engineering.",
+        "poster": "/assets/posters/wiredin.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "1st Nov 2025, 10:00 AM",
+        "endTime": "2nd Nov 2025, 6:00 PM",
+        "rulesDoc": null,
+        "venue": "Gallery 4(AE & AM)",
+        "type": "Mixed",
+        "coordinators": [
+            {
+                "name": "Sumit Kr. Gupta",
+                "phone": "8858031046"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "1st Nov 2025, 10:00 AM",
+                "endTime": "1st Nov 2025, 11:00 AM",
+                "location": "Gallery 4 (AE & AM)"
+            },
+            {
+                "roundNumber": "2",
+                "startTime": "2nd Nov 2025, 4:00 PM",
+                "endTime": "2nd Nov 2025, 6:00 PM",
+                "location": "IT Classroom 2"
+            }
+        ]
     },
     {
-      "_id": "narrimate",
-      "name": "Narrimate",
-      "description": "Got a story to tell? Narrimate is your chance to turn words into magic. Craft your own short animated tale using AI tools or your own flair. The better your script and creativity, the higher you soar in this storytelling showdown.",
-      "poster": "/assets/posters/narrimate.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "2nd Nov 2025, 08:30 AM",
-      "endTime": "2nd Nov 2025, 09:30 AM",
-      "rulesDoc": null,
-      "venue": "TBD",
-      "type": "Single",
-      "coordinators": [
-        {
-          "name": "Dhruv Kumar",
-          "phone": "9932743944"
-        }
-      ]
+        "_id": "hardness-hustle",
+        "name": "Hardness Hustle",
+        "description": "Description dropping soon — it's going to be tougher than it sounds!",
+        "poster": "/assets/posters/hardnesshustle.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st Oct 2025, 6:30 PM",
+        "endTime": "2nd Nov 2025, 1:00 PM",
+        "rulesDoc": null,
+        "venue": "4th year MME Classroom",
+        "type": null,
+        "coordinators": [
+            {
+                "name": "Himanshu Kumar",
+                "phone": "7413930624"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "31st Oct 2025, 6:30 PM",
+                "endTime": "31st Oct 2025, 7:30 PM",
+                "location": "4th Year Classroom MME Dept."
+            },
+            {
+                "roundNumber": "2",
+                "startTime": "2nd Nov 2025, 11:30 AM",
+                "endTime": "2nd Nov 2025, 1:00 PM",
+                "location": "Heat Treatment Lab & Polishing Lab (MME)"
+            }
+        ]
     },
     {
-      "_id": "craft-n-cut",
-      "name": "Craft N Cut",
-      "description": "Lights, clips, action! Craft N Cut is the edit-off you’ve been waiting for. Trim, sync, color, and slice your way to cinematic glory before the clock runs out. Who says editors don’t rule the show?",
-      "poster": "/assets/posters/craftncut.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "31st Oct 2025, 6:00 PM",
-      "endTime": "31st Oct 2025, 8:00 PM",
-      "rulesDoc": null,
-      "venue": "Computer Centre 2",
-      "type": "Single",
-      "coordinators": [
-        {
-          "name": "Santanu Mahata",
-          "phone": "9932734434"
-        }
-      ]
+        "_id": "narrimate",
+        "name": "Narrimate",
+        "description": "Got a story to tell? Narrimate is your chance to turn words into magic. Craft your own short animated tale using AI tools or your own flair. The better your script and creativity, the higher you soar in this storytelling showdown.",
+        "poster": "/assets/posters/narrimate.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "2nd Nov 2025, 08:30 AM",
+        "endTime": "2nd Nov 2025, 09:30 AM",
+        "rulesDoc": null,
+        "venue": "TBD",
+        "type": "Single",
+        "coordinators": [
+            {
+                "name": "Dhruv Kumar",
+                "phone": "77830036251"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "2nd Nov 2025, 8:30 PM",
+                "endTime": "2nd Nov 2025, 9:30 PM",
+                "location": "(pre-event) Judgement at IT seminar Hall"
+            }
+        ]
     },
     {
-      "_id": "chitrakatha",
-      "name": "Chitrakatha",
-      "description": "Let your photos do the talking. In Chitrakatha, you’ll weave a story entirely through pictures. It’s all about the eye, the frame, and the emotion behind every click. Can you narrate without a single word?",
-      "poster": "/assets/posters/chitrakatha.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "2nd Nov 2025, 12:00 PM",
-      "endTime": "2nd Nov 2025, 12:00 PM",
-      "rulesDoc": null,
-      "venue": "TBD",
-      "type": null,
-      "coordinators": [
-        {
-          "name": "Nikhil Kumar",
-          "phone": "7858010472"
-        }
-      ]
+        "_id": "craft-n-cut",
+        "name": "Craft N Cut",
+        "description": "Lights, clips, action! Craft N Cut is the edit-off you've been waiting for. Trim, sync, color, and slice your way to cinematic glory before the clock runs out. Who says editors don't rule the show?",
+        "poster": "/assets/posters/craftncut.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st Oct 2025, 6:00 PM",
+        "endTime": "31st Oct 2025, 8:00 PM",
+        "rulesDoc": null,
+        "venue": "Computer Centre 2",
+        "type": "Single",
+        "coordinators": [
+            {
+                "name": "Santanu Mahata",
+                "phone": "9932734493"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "31st Oct 2025, 6:00 PM",
+                "endTime": "31st Oct 2025, 8:00 PM",
+                "location": "computer center 2"
+            }
+        ]
     },
     {
-      "_id": "eofool",
-      "name": "EOFool",
-      "description": "EOFool is not your regular CTF—it’s 48 hours of pure hacking chaos. Crack cryptos, chase flags, and flex your reverse-engineering skills. Every second counts, and every solve boosts your glory. Think you’ve got what it takes? Prove it.",
-      "poster": "/assets/posters/eofool.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "30th Oct 2025, 12:00 PM",
-      "endTime": "1st Nov 2025, 12:00 PM",
-      "rulesDoc": null,
-      "venue": "TBD",
-      "type": "Mixed",
-      "coordinators": [
-        {
-          "name": "Soham Haldar",
-          "phone": "8910827714"
-        }
-      ]
+        "_id": "chitrakatha",
+        "name": "Chitrakatha",
+        "description": "Chitrakatha brings stories to life through the silent power of visuals! It’s a photography-based storytelling competition where every shot carries emotion, meaning, and connection. ❤ Arrange your images in a sequence that weaves a narrative without words, using creativity, perspective, and flow. Each frame becomes a chapter, each click a heartbeat of your imagination. Capture not just moments, but emotions that speak louder than any script. Let your lens be your pen and your story shine through light and shadow.",
+        "poster": "/assets/posters/chitrakatha.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "2nd Nov 2025, 12:00 PM",
+        "endTime": "2nd Nov 2025, 12:00 PM",
+        "rulesDoc": null,
+        "venue": "TBD",
+        "type": null,
+        "coordinators": [
+            {
+                "name": "Nikhil Kumar",
+                "phone": "7858010472"
+            },
+            {
+                "name": "Anshika Gupta",
+                "phone": "6388451765"
+            },
+            {
+                "name": "Harsh kamal",
+                "phone": "7897734922"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "2nd Nov 2025, 12:00 PM",
+                "endTime": "2nd Nov 2025, 12:00 PM",
+                "location": ""
+            }
+        ]
     },
     {
-      "_id": "ode-to-code",
-      "name": "ODE to Code",
-      "description": "Fast fingers, sharp logic, zero chill. ODE to Code is where coders battle the clock and each other to solve the nastiest problems. It’s logic, pressure, and caffeine in perfect harmony.",
-      "poster": "/assets/posters/odetocode.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "31st Oct 2025, 6:00 PM",
-      "endTime": "31st Oct 2025, 9:00 PM",
-      "rulesDoc": null,
-      "venue": "Software Lab(CST Department)",
-      "type": null,
-      "coordinators": [
-        {
-          "name": "Abhinav Verma",
-          "phone": "9151740565"
-        }
-      ]
+        "_id": "eofool",
+        "name": "EOFool",
+        "description": "EOFool is not your regular CTF—it's 48 hours of pure hacking chaos. Crack cryptos, chase flags, and flex your reverse-engineering skills. Every second counts, and every solve boosts your glory. Think you've got what it takes? Prove it.",
+        "description_points":[
+            "ℹ️ For iOS users, register through this link: https://forms.gle/jy498paNWitDbejw6"
+        ],
+        "poster": "/assets/posters/eofool.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "30th Oct 2025, 12:00 PM",
+        "endTime": "1st Nov 2025, 12:00 PM",
+        "rulesDoc": null,
+        "venue": "Online",
+        "type": "Mixed",
+        "coordinators": [
+            {
+                "name": "Soham Haldar",
+                "phone": "8910827714"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "30th Oct 2025, 12:00 PM",
+                "endTime": "1st Nov 2025, 12:00 PM",
+                "location": "online"
+            }
+        ]
     },
     {
-      "_id": "vicharagni",
-      "name": "Vicharagni",
-      "description": "Vicharagni isn’t your everyday debate—it’s fire meets intellect. Go head-to-head in high-stakes clashes of logic, ethics, and wit. Whether you’re defending or destroying an argument, this is where your words spark flames.",
-      "poster": "/assets/posters/vicharagni.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "TBD",
-      "endTime": "TBD",
-      "rulesDoc": null,
-      "venue": "Alumni Seminar Hall",
-      "type": null,
-      "coordinators": [
-        {
-          "name": "Anurag Singh",
-          "phone": "8169687574"
-        }
-      ]
+        "_id": "ode-to-code",
+        "name": "ODE to Code",
+        "description": "Fast fingers, sharp logic, zero chill. ODE to Code is where coders battle the clock and each other to solve the nastiest problems. It's logic, pressure, and caffeine in perfect harmony.",
+        "poster": "/assets/posters/odetocode.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st Oct 2025, 6:00 PM",
+        "endTime": "31st Oct 2025, 9:00 PM",
+        "rulesDoc": null,
+        "venue": "Software Lab(CST Department)",
+        "type": null,
+        "coordinators": [
+            {
+                "name": "Abhinav Verma",
+                "phone": "9151740565"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "31st Oct 2025, 6:00 PM",
+                "endTime": "31st Oct 2025, 9:00 PM",
+                "location": "(CST Dept.) Software Lab"
+            }
+        ]
     },
     {
-      "_id": "founder-s-goal",
-      "name": "Founder's Goal",
-      "description": "Description coming soon — but trust us, it’s going to be entrepreneurial madness!",
-      "poster": "/assets/posters/foundersgoal.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "1st Nov 2025, 11:00 AM",
-      "endTime": "1st Nov 2025, 1:00 PM",
-      "rulesDoc": null,
-      "venue": "I-Hall",
-      "type": null,
-      "coordinators": [
-        {
-          "name": "Yash Mahajan",
-          "phone": "9503672254"
-        }
-      ]
+        "_id": "vicharagni",
+        "name": "Vicharagni",
+        "description": "Vicharagni isn't your everyday debate—it's fire meets intellect. Go head-to-head in high-stakes clashes of logic, ethics, and wit. Whether you're defending or destroying an argument, this is where your words spark flames.",
+        "poster": "/assets/posters/vicharagni.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "TBD",
+        "endTime": "TBD",
+        "rulesDoc": null,
+        "venue": "Alumni Seminar Hall",
+        "type": null,
+        "coordinators": [
+            {
+                "name": "Anurag Singh",
+                "phone": "8169687574"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "All Rounds",
+                "startTime": "2nd Nov 2025, 2:00 PM",
+                "endTime": "2nd Nov 2025, 6:00 PM",
+                "location": "ASH"
+            }
+        ]
     },
     {
-      "_id": "ignite",
-      "name": "Ignite",
-      "description": "Light up your ideas with Ignite! Start by cracking a real-world case study, then step up to pitch your killer solution on stage. It's brains, creativity, and presentation power rolled into one.",
-      "poster": "/assets/posters/ignite.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "1st Nov 2025, 02:00 PM",
-      "endTime": "2nd Nov 2025, 12:00 PM",
-      "rulesDoc": null,
-      "venue": "U-613",
-      "type": "Team",
-      "coordinators": [
-        {
-          "name": "Chitranjan Kumar",
-          "phone": "7413936203"
-        }
-      ]
+        "_id": "founder-s-goal",
+        "name": "Founder's Goal",
+        "description": "Ever wondered what it feels like to sit in the founder's chair? Here's your chance to step into real startup scenarios, face tough turning points, and make the bold decisions that could change everything. 🚀 It's not about what you know — it's about how you think. Be sharp. Be daring. Be strategic. Because one decision can define the future.",
+        "poster": "/assets/posters/foundersgoal.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "1st Nov 2025, 11:00 AM",
+        "endTime": "1st Nov 2025, 1:00 PM",
+        "rulesDoc": null,
+        "venue": "I-Hall",
+        "type": null,
+        "coordinators": [
+            {
+                "name": "Yash Mahajan",
+                "phone": "9503672254"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "1st Nov 2025, 11:00 AM",
+                "endTime": "1st Nov 2025, 1:00 PM",
+                "location": "I Hall"
+            }
+        ]
     },
     {
-      "_id": "battle-of-bards",
-      "name": "Battle of Bards",
-      "description": "Quick wits, wordplay, and puzzles collide in Battle of Bards. It’s spontaneous, smart, and slightly chaotic. Think fast, talk faster, and charm your way through rounds that test how clever you really are.",
-      "poster": "/assets/posters/battleofbards.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "1st Nov 2025, 10:00 AM",
-      "endTime": "1st Nov 2025, 2:00 PM",
-      "rulesDoc": null,
-      "venue": "Gallery 3(AE & AM)",
-      "type": "Team",
-      "coordinators": [
-        {
-          "name": "Diya Ghosh",
-          "phone": "9531611480"
-        }
-      ]
+        "_id": "ignite",
+        "name": "Ignite",
+        "description": "Light up your ideas with Ignite! Start by cracking a real-world case study, then step up to pitch your killer solution on stage. It's brains, creativity, and presentation power rolled into one.",
+        "poster": "/assets/posters/ignite.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "1st Nov 2025, 02:00 PM",
+        "endTime": "2nd Nov 2025, 12:00 PM",
+        "rulesDoc": null,
+        "venue": "U-613",
+        "type": "Team",
+        "coordinators": [
+            {
+                "name": "Chitranjan Kumar",
+                "phone": "7413936203"
+            },
+            {
+                "name": "Yogesh Mourya",
+                "phone": "7523835637"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "1st Nov 2025, 2:00 PM",
+                "endTime": "1st Nov 2025, 4:00 PM",
+                "location": "U-613"
+            },
+            {
+                "roundNumber": "2",
+                "startTime": "2nd Nov 2025, 9:00 AM",
+                "endTime": "2nd Nov 2025, 12:00 PM",
+                "location": "I Hall"
+            }
+        ]
     },
     {
-      "_id": "flashmob",
-      "name": "Flashmob",
-      "description": "Description coming soon — expect a surprise that’ll light up the crowd!",
-      "poster": "/assets/posters/flashmob.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "31st Oct 2025, 4:00 PM",
-      "endTime": "31st Oct 2025, 5:30 PM",
-      "rulesDoc": null,
-      "venue": "Netaji Bhawan",
-      "type": "Team",
-      "coordinators": [
-        {
-          "name": "Rishikesh Pote",
-          "phone": "8010559502"
-        }
-      ]
+        "_id": "battle-of-bards",
+        "name": "Battle of Bards",
+        "description": "Quick wits, wordplay, and puzzles collide in Battle of Bards. It's spontaneous, smart, and slightly chaotic. Think fast, talk faster, and charm your way through rounds that test how clever you really are.",
+        "poster": "/assets/posters/battleofbards.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "1st Nov 2025, 10:00 AM",
+        "endTime": "1st Nov 2025, 2:00 PM",
+        "rulesDoc": null,
+        "venue": "Gallery 3(AE & AM)",
+        "type": "Team",
+        "coordinators": [
+            {
+                "name": "Diya Ghosh",
+                "phone": "9531614180"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "1st Nov 2025, 10:00 AM",
+                "endTime": "1st Nov 2025, 2:00 PM",
+                "location": "Gallery 3(AE&AM)"
+            }
+        ]
     },
     {
-      "_id": "roborumble",
-      "name": "RoboRumble",
-      "description": "Description on standby — gear up for some robotic mayhem soon!",
-      "poster": "/assets/posters/roborumble.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "TBD",
-      "endTime": "TBD",
-      "rulesDoc": null,
-      "venue": "TBD",
-      "type": "Mixed",
-      "coordinators": [
-        {
-          "name": "Pratyush",
-          "phone": "N/A"
-        }
-      ]
+        "_id": "flashmob",
+        "name": "Flashmob",
+        "description": "Description coming soon — expect a surprise that'll light up the crowd!",
+        "poster": "/assets/posters/flashmob.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st Oct 2025, 4:00 PM",
+        "endTime": "31st Oct 2025, 5:30 PM",
+        "rulesDoc": null,
+        "venue": "Netaji Bhawan",
+        "type": "Team",
+        "coordinators": [
+            {
+                "name": "Rishikesh Pote",
+                "phone": "8010559502"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "31st Oct 2025, 4:00 PM",
+                "endTime": "31st Oct 2025, 5:30 PM",
+                "location": "NB"
+            }
+        ]
     },
     {
-      "_id": "aerocraft",
-      "name": "AEROCRAFT",
-      "description": "Hovercrafts, chaos, and crashes — that’s AEROCRAFT for you. Build your beast to outlast, outpush, and outmaneuver the competition in a high-octane arena where only the toughest hovercraft survives.",
-      "poster": "/assets/posters/aerocraft.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "TBD",
-      "endTime": "TBD",
-      "rulesDoc": null,
-      "venue": "TBD",
-      "type": "Team",
-      "coordinators": [
-        {
-          "name": "Mandeep",
-          "phone": "9021500267"
-        }
-      ]
+        "_id": "roborumble",
+        "name": "RoboRumble",
+        "description": "ROBO-RUMBLE is the perfect battleground for creativity, competition, and control! 💪 Participants build bots from a fixed set of components to ensure fairness and innovation. The event includes three thrilling rounds — Bot Pursuit, Tug and Tussle, and Robo Sumo — each designed to test speed, strength, and strategy. ⚙ From chasing rivals to outmuscling opponents, every challenge pushes your engineering skills to the limit. 🚀 Simple rules, big excitement, and endless fun await those ready to rumble!",
+        "poster": "/assets/posters/roborumble.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st Oct 2025, 6:00 PM",
+        "endTime": "2nd Nov 2025",
+        "rulesDoc": null,
+        "venue": "Lords",
+        "type": "Mixed",
+        "coordinators": [
+            {
+                "name": "Pratyush",
+                "phone": "8617780658"
+            },
+            {
+                "name": "Shourya Deep Bera",
+                "phone": "9051143139"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "Day 1",
+                "startTime": "31st Oct 2025, 6:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            },
+            {
+                "roundNumber": "Day 2",
+                "startTime": "1st Nov 2025, 6:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            },
+            {
+                "roundNumber": "Day 3",
+                "startTime": "2nd Nov 2025, 6:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            }
+        ]
     },
     {
-      "_id": "robosoccer",
-      "name": "Robosoccer",
-      "description": "Description loading — but you already know it’s gonna be robots kicking and chaos scoring!",
-      "poster": "/assets/posters/robosoccer.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "TBD",
-      "endTime": "TBD",
-      "rulesDoc": null,
-      "venue": "TBD",
-      "type": "Team",
-      "coordinators": [
-        {
-          "name": "Swayam",
-          "phone": "N/A"
-        }
-      ]
+        "_id": "aerocraft",
+        "name": "AEROCRAFT",
+        "description": "Hovercrafts, chaos, and crashes — that's AEROCRAFT for you. Build your beast to outlast, outpush, and outmaneuver the competition in a high-octane arena where only the toughest hovercraft survives.",
+        "poster": "/assets/posters/aerocraft.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "TBD",
+        "endTime": "TBD",
+        "rulesDoc": null,
+        "venue": "TBD",
+        "type": "Team",
+        "coordinators": [
+            {
+                "name": "Rohan Vikas Kudtudkar",
+                "phone": "9321234034"
+            },
+            {
+                "name": "Devanshu Raj",
+                "phone": "6204445703"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "Day 1",
+                "startTime": "31st Oct 2025, 7:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            },
+            {
+                "roundNumber": "Day 2",
+                "startTime": "1st Nov 2025, 6:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            },
+            {
+                "roundNumber": "Day 3",
+                "startTime": "2nd Nov 2025, 6:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            }
+        ]
     },
     {
-      "_id": "deathrace",
-      "name": "Deathrace",
-      "description": "Strap in for Deathrace — where bots burn rubber and crush the track. Build a speed demon that can survive every bump, obstacle, and opponent. Fastest bot wins. The rest? Left in the dust.",
-      "poster": "/assets/posters/deathrace.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "TBD",
-      "endTime": "TBD",
-      "rulesDoc": null,
-      "venue": "TBD",
-      "type": "Team",
-      "coordinators": [
-        {
-          "name": "Pinak Parate",
-          "phone": "9689311358"
-        }
-      ]
+        "_id": "robosoccer",
+        "name": "Robosoccer",
+        "description": "Description loading — but you already know it's gonna be robots kicking and chaos scoring!",
+        "poster": "/assets/posters/robosoccer.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st October 2025, 7:00 PM",
+        "endTime": "2nd November 2025",
+        "rulesDoc": null,
+        "venue": "Lords",
+        "type": "Team",
+        "coordinators": [
+            {
+                "name": "Sumit Kumar",
+                "phone": "8294450614"
+            },
+            {
+                "name": "Swayam Gupta",
+                "phone": "7985873384"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "Day 1",
+                "startTime": "31st Oct 2025, 7:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            },
+            {
+                "roundNumber": "Day 2",
+                "startTime": "1st Nov 2025, 6:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            },
+            {
+                "roundNumber": "Day 3",
+                "startTime": "2nd Nov 2025, 6:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            }
+        ]
     },
     {
-      "_id": "robowar",
-      "name": "Robowar",
-      "description": "Welcome to the cage of chaos! Robowar is a no-mercy showdown where your bot fights for dominance. Build, battle, and bash till the last one stands. Sparks will fly, literally.",
-      "poster": "/assets/posters/robowar.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "TBD",
-      "endTime": "TBD",
-      "rulesDoc": null,
-      "venue": "TBD",
-      "type": "Team",
-      "coordinators": [
-        {
-          "name": "Pratyush & Mandeep",
-          "phone": "N/A"
-        }
-      ]
+        "_id": "deathrace",
+        "name": "Deathrace",
+        "description": "Strap in for Deathrace — where bots burn rubber and crush the track. Build a speed demon that can survive every bump, obstacle, and opponent. Fastest bot wins. The rest? Left in the dust.",
+        "poster": "/assets/posters/deathrace.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st October 2025, 7:00 PM",
+        "endTime": "2nd November 2025",
+        "rulesDoc": null,
+        "venue": "Lords",
+        "type": "Team",
+        "coordinators": [
+            {
+                "name": "Pinak Parate",
+                "phone": "9689311358"
+            },
+            {
+                "name": "Debanjan Paul",
+                "phone": "8371951204"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "Day 1",
+                "startTime": "31st Oct 2025, 7:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            },
+            {
+                "roundNumber": "Day 2",
+                "startTime": "1st Nov 2025, 6:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            },
+            {
+                "roundNumber": "Day 3",
+                "startTime": "2nd Nov 2025, 6:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            }
+        ]
     },
     {
-      "_id": "mayday-mystery",
-      "name": "MayDay Mystery",
-      "description": "Riddles, chaos, and campus-wide adventure — MayDay Mystery turns IIEST into your playground. Decode clues, sprint between checkpoints, and outsmart every other team before the clock runs out.",
-      "poster": "/assets/posters/maydaymystery.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "1st Nov 2025, 04:00 PM",
-      "endTime": "1st Nov 2025, 06:00 PM",
-      "rulesDoc": null,
-      "venue": "Registration Desk",
-      "type": "Team",
-      "coordinators": [
-        {
-          "name": "Anamika Singh",
-          "phone": "9932692869"
-        }
-      ]
+        "_id": "robowar",
+        "name": "Robowar",
+        "description": "Welcome to the cage of chaos! Robowar is a no-mercy showdown where your bot fights for dominance. Build, battle, and bash till the last one stands. Sparks will fly, literally.",
+        "poster": "/assets/posters/robowar.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st October 2025, 7:00 PM",
+        "endTime": "2nd November 2025",
+        "rulesDoc": null,
+        "venue": "Lords",
+        "type": "Team",
+        "coordinators": [
+            {
+                "name": "Pratyush",
+                "phone": "8617780658"
+            },
+            {
+                "name": "Mandeep",
+                "phone": "9021500267"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "Day 1",
+                "startTime": "31st Oct 2025, 7:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            },
+            {
+                "roundNumber": "Day 2",
+                "startTime": "1st Nov 2025, 6:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            },
+            {
+                "roundNumber": "Day 3",
+                "startTime": "2nd Nov 2025, 6:00 PM",
+                "endTime": "",
+                "location": "Lords"
+            }
+        ]
     },
     {
-      "_id": "mathemania",
-      "name": "Mathemania",
-      "description": "Math meets madness in Mathmania! From tricky aptitude to artistic Desmos recreations, this isn't your regular math quiz. It's logic, beauty, and brainpower colliding in the most satisfying way.",
-      "poster": "/assets/posters/mathemania.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "31st Oct 2025, 7:30 PM",
-      "endTime": "1st Nov 2025, 11:00 AM",
-      "rulesDoc": null,
-      "venue": "U-413",
-      "type": null,
-      "coordinators": [
-        {
-          "name": "Achintya Sandilya",
-          "phone": "6299246335"
-        }
-      ]
+        "_id": "mayday-mystery",
+        "name": "MayDay Mystery",
+        "description": "Riddles, chaos, and campus-wide adventure — MayDay Mystery turns IIEST into your playground. Decode clues, sprint between checkpoints, and outsmart every other team before the clock runs out.",
+        "poster": "/assets/posters/maydaymystery.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "1st Nov 2025, 04:00 PM",
+        "endTime": "1st Nov 2025, 06:00 PM",
+        "rulesDoc": null,
+        "venue": "Registration Desk",
+        "type": "Team",
+        "coordinators": [
+            {
+                "name": "Anamika Singh",
+                "phone": "9932692869"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "1st Nov 2025, 4:00 PM",
+                "endTime": "1st Nov 2025, 6:00 PM",
+                "location": "RD"
+            }
+        ]
     },
     {
-      "_id": "war-of-titans",
-      "name": "War of Titans",
-      "description": "Description coming soon — legends will rise, and only one titan will conquer!",
-      "poster": "/assets/posters/waroftitans.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "1st Nov 2025, 03:00 PM",
-      "endTime": "2nd Nov 2025, 03:00 PM",
-      "rulesDoc": null,
-      "venue": "U-413",
-      "type": null,
-      "coordinators": [
-        {
-          "name": "Harsh Agrawal",
-          "phone": "7488484122"
-        }
-      ]
+        "_id": "mathemania",
+        "name": "Mathemania",
+        "description": "Math meets madness in Mathemania! From tricky aptitude to artistic Desmos recreations, this isn't your regular math quiz. It's logic, beauty, and brainpower colliding in the most satisfying way.",
+        "poster": "/assets/posters/mathemania.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st Oct 2025, 7:30 PM",
+        "endTime": "1st Nov 2025, 11:00 AM",
+        "rulesDoc": null,
+        "venue": "U-413",
+        "type": null,
+        "coordinators": [
+            {
+                "name": "Achintya Sandilya",
+                "phone": "6299246335"
+            },
+            {
+                "name": "Arijit Malakar",
+                "phone": "7362991063"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "31st Oct 2025, 7:30 PM",
+                "endTime": "31st Oct 2025, 8:30 PM",
+                "location": "U-413"
+            },
+            {
+                "roundNumber": "2",
+                "startTime": "1st Nov 2025, 11:00 AM",
+                "endTime": "1st Nov 2025, 11:00 AM",
+                "location": "Online"
+            }
+        ]
     },
     {
-      "_id": "junkyard",
-      "name": "Junkyard",
-      "description": "Welcome to Junkyard — where scrap meets genius! Crack puzzles in Round 1, then get your hands dirty turning junk into functional models. It’s teamwork, creativity, and chaos all in one.",
-      "poster": "/assets/posters/junkyard.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "1st Nov 2025, 11:00 AM",
-      "endTime": "2nd Nov 2025, 6:00 PM",
-      "rulesDoc": null,
-      "venue": "U-413 and U-513",
-      "type": "Team",
-      "coordinators": [
-        {
-          "name": "Anish Mansuri",
-          "phone": "8340243520"
-        }
-      ]
+        "_id": "war-of-titans",
+        "name": "War of Titans",
+        "description": "Description coming soon — legends will rise, and only one titan will conquer!",
+        "poster": "/assets/posters/waroftitans.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "1st Nov 2025, 03:00 PM",
+        "endTime": "2nd Nov 2025, 03:00 PM",
+        "rulesDoc": null,
+        "venue": "U-413",
+        "type": null,
+        "coordinators": [
+            {
+                "name": "Harsh Agrawal",
+                "phone": "7488484122"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "1st Nov 2025, 3:00 PM",
+                "endTime": "1st Nov 2025, 4:00 PM",
+                "location": "U-413"
+            },
+            {
+                "roundNumber": "2",
+                "startTime": "2nd Nov 2025, 2:00 PM",
+                "endTime": "2nd Nov 2025, 3:00 PM",
+                "location": "Gallery 3(AE&AM)"
+            }
+        ]
     },
     {
-      "_id": "bgmi",
-      "name": "BGMI",
-      "description": "Description dropping soon — ready your squad and gear up for battle!",
-      "poster": "/assets/posters/bgmi.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "31st Oct 2025, 9:00 PM",
-      "endTime": "2nd Nov 2025, 3:00 PM",
-      "rulesDoc": null,
-      "venue": "Online",
-      "type": "Mixed",
-      "coordinators": [
-        {
-          "name": "Debjit Maity",
-          "phone": "8167025227"
-        }
-      ]
+        "_id": "junkyard",
+        "name": "Junkyard",
+        "description": "Welcome to Junkyard — where scrap meets genius! Crack puzzles in Round 1, then get your hands dirty turning junk into functional models. It's teamwork, creativity, and chaos all in one.",
+        "poster": "/assets/posters/junkyard.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "1st Nov 2025, 11:00 AM",
+        "endTime": "2nd Nov 2025, 6:00 PM",
+        "rulesDoc": null,
+        "venue": "U-413 and U-513",
+        "type": "Team",
+        "coordinators": [
+            {
+                "name": "Anish Mansuri",
+                "phone": "8340243520"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "1st Nov 2025, 11:00 AM",
+                "endTime": "1st Nov 2025, 12:00 PM",
+                "location": "U-413 & U513"
+            },
+            {
+                "roundNumber": "2",
+                "startTime": "2nd Nov 2025, 4:30 PM",
+                "endTime": "2nd Nov 2025, 6:00 PM",
+                "location": "Amenities"
+            }
+        ]
     },
     {
-      "_id": "valorant",
-      "name": "Valorant",
-      "description": "Aim, clutch, and dominate. The Valorant tourney is pure adrenaline — teams fight it out in tactical 5v5 shootouts to claim the champion’s crown. Strategy meets style, and the stakes couldn’t be higher.",
-      "poster": "/assets/posters/valorant.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "1st Nov 2025, 03:00 PM",
-      "endTime": "1st Nov 2025, 06:00 PM",
-      "rulesDoc": null,
-      "venue": "Computer Centre UG2",
-      "type": "Mixed",
-      "coordinators": [
-        {
-          "name": "Debjit Maity",
-          "phone": "8167025227"
-        },
-        {
-          "name": "Anshuman Dalai",
-          "phone": "8757599552"
-        }
-      ]
+        "_id": "bgmi",
+        "name": "BGMI",
+        "description": "Description dropping soon — ready your squad and gear up for battle!",
+        "poster": "/assets/posters/bgmi.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st Oct 2025, 9:00 PM",
+        "endTime": "2nd Nov 2025, 3:00 PM",
+        "rulesDoc": null,
+        "venue": "Online",
+        "type": "Mixed",
+        "coordinators": [
+            {
+                "name": "Bikarm Kumar",
+                "phone": "6203294110"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "31st Oct 2025, 9:00 PM",
+                "endTime": "",
+                "location": "Online"
+            },
+            {
+                "roundNumber": "2",
+                "startTime": "1st Nov 2025, 11:00 AM",
+                "endTime": "1st Nov 2025, 3:00 PM",
+                "location": "Computer Centre UG 2"
+            },
+            {
+                "roundNumber": "Final Round",
+                "startTime": "2nd Nov 2025, 11:00 AM",
+                "endTime": "2nd Nov 2025, 3:00 PM",
+                "location": "Computer Center UG2"
+            }
+        ]
     },
     {
-      "_id": "fifa",
-      "name": "Fifa",
-      "description": "Kick off the ultimate FIFA showdown! One-on-one clashes, knockout drama, and bragging rights on the line. It’s your chance to prove you’re not just good—you’re controller royalty.",
-      "poster": "/assets/posters/fifa.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "31st Oct 2025, 5:00 PM",
-      "endTime": "1st Nov 2025, 1:00 PM",
-      "rulesDoc": null,
-      "venue": "Library Computer Lab",
-      "type": "Mixed",
-      "coordinators": [
-        {
-          "name": "Pritam",
-          "phone": "7865009382"
-        }
-      ]
+        "_id": "valorant",
+        "name": "Valorant",
+        "description": "Aim, clutch, and dominate. The Valorant tourney is pure adrenaline — teams fight it out in tactical 5v5 shootouts to claim the champion's crown. Strategy meets style, and the stakes couldn't be higher.",
+        "poster": "/assets/posters/valorant.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "1st Nov 2025, 03:00 PM",
+        "endTime": "1st Nov 2025, 06:00 PM",
+        "rulesDoc": null,
+        "venue": "Computer Centre UG2",
+        "type": "Mixed",
+        "coordinators": [
+            {
+                "name": "Debjit Maity",
+                "phone": "8167025227"
+            },
+            {
+                "name": "Anshuman Dalai",
+                "phone": "8757599552"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "1st Nov 2025, 3:00 PM",
+                "endTime": "1st Nov 2025, 6:00 PM",
+                "location": "Computer Centre UG 2"
+            },
+            {
+                "roundNumber": "Final Round",
+                "startTime": "2nd Nov 2025, 3:00 PM",
+                "endTime": "2nd Nov 2025, 6:00 PM",
+                "location": "Computer Center UG2"
+            }
+        ]
     },
     {
-      "_id": "king-s-conquest",
-      "name": "King's Conquest",
-      "description": "Think you've got the brains to rule them all? King’s Conquest tests your tactical mind in a battle of strategy and betrayal. Build alliances, crush enemies, and outthink everyone to claim the throne.",
-      "poster": "/assets/posters/kingsconquest.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "1st Nov 2025, 10:00 AM",
-      "endTime": "1st Nov 2025, 3:00 PM",
-      "rulesDoc": null,
-      "venue": "BIX2S Civil Dept.",
-      "type": "Single",
-      "coordinators": [
-        {
-          "name": "Anjishnu Gupta",
-          "phone": "8768453342"
-        }
-      ]
+        "_id": "fifa",
+        "name": "Fifa",
+        "description": "Kick off the ultimate FIFA showdown! One-on-one clashes, knockout drama, and bragging rights on the line. It's your chance to prove you're not just good—you're controller royalty.",
+        "poster": "/assets/posters/fifa.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st Oct 2025, 5:00 PM",
+        "endTime": "1st Nov 2025, 1:00 PM",
+        "rulesDoc": null,
+        "venue": "Library Computer Lab",
+        "type": "Mixed",
+        "coordinators": [
+            {
+                "name": "Pritam",
+                "phone": "7856093382"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "31st Oct 2025, 5:00 PM",
+                "endTime": "31st Oct 2025, 9:00 PM",
+                "location": "Library Computer Lab"
+            },
+            {
+                "roundNumber": "Final Round",
+                "startTime": "1st Nov 2025, 10:00 AM",
+                "endTime": "1st Nov 2025, 1:00 PM",
+                "location": "Amenities"
+            }
+        ]
     },
     {
-      "_id": "real-cricket",
-      "name": "Real Cricket",
-      "description": "Gear up, champs! It's time to swap the field for your phone and dive into Real Cricket, the ultimate mobile cricket clash where timing, tactics, and precision decide your fate! 🎮⚡ Step onto the virtual pitch, build your dream innings, and smash those sixes like a pro — because every shot counts and every over brings you closer to victory! 💥 Whether you're a cover drive king or a yorker specialist, this is your stage to show off your cricketing instincts and dominate the leaderboard. 🏆 So pad up, grab your virtual bat, and let's see who hits it out of the park! ",
-      "poster": "/assets/posters/realcricket.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "31st Oct 2025, 12:00 AM",
-      "endTime": "3rd Nov 2025, 11:59 PM",
-      "rulesDoc": null,
-      "venue": "Lords",
-      "type": "Single",
-      "coordinators": [
-        {
-          "name": "Arka Mondal",
-          "phone": "9474762287"
-        }
-      ]
+        "_id": "king-s-conquest",
+        "name": "King's Conquest",
+        "description": "Think you've got the brains to rule them all? King's Conquest tests your tactical mind in a battle of strategy and betrayal. Build alliances, crush enemies, and outthink everyone to claim the throne.",
+        "poster": "/assets/posters/kingsconquest.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "1st Nov 2025, 10:00 AM",
+        "endTime": "1st Nov 2025, 3:00 PM",
+        "rulesDoc": null,
+        "venue": "BIX2S Civil Dept.",
+        "type": "Single",
+        "coordinators": [
+            {
+                "name": "Anjishnu Gupta",
+                "phone": "8768453342"
+            }
+        ],
+        "rounds": [
+            {
+                "roundNumber": "1",
+                "startTime": "1st Nov 2025, 10:00 AM",
+                "endTime": "1st Nov 2025, 3:00 PM",
+                "location": "BIX2S Civil Dept."
+            }
+        ]
     },
     {
-      "_id": "speedcubing-showdown",
-      "name": "Speedcubing Showdown",
-      "description": "Ready, set, twist! 🤩 SOCIT brings you the ultimate Speedcubing Challenge, where quick thinking meets lightning-fast fingers! 🔥 Solve the classic 3x3 Rubik's Cube in record time and prove your mastery over color, logic, and pure focus. 💫 Every second counts as you twist, turn, and snap your way toward perfection — can you beat the clock before anyone else? ⏱️ Whether you're a casual solver or a cubing prodigy, this is your chance to show off those smooth moves and claim your crown as the cube champion! 👑🧠",
-      "poster": "/assets/posters/speedcubingshowdown.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "",
-      "startTime": "31st Oct 2025, 12:00 AM",
-      "endTime": "3rd Nov 2025, 11:59 PM",
-      "rulesDoc": null,
-      "venue": "Lords",
-      "type": "Single",
-      "coordinators": [
-        {
-          "name": "Priyanshu Raj",
-          "phone": "7250148414"
-        },
-        {
-          "name": "Sourov Debnath",
-          "phone": "9635674194"
-        }
-      ]
+        "_id": "real-cricket",
+        "name": "Real Cricket",
+        "description": "Gear up, champs! It's time to swap the field for your phone and dive into Real Cricket, the ultimate mobile cricket clash where timing, tactics, and precision decide your fate! 🎮⚡ Step onto the virtual pitch, build your dream innings, and smash those sixes like a pro — because every shot counts and every over brings you closer to victory! 💥 Whether you're a cover drive king or a yorker specialist, this is your stage to show off your cricketing instincts and dominate the leaderboard. 🏆 So pad up, grab your virtual bat, and let's see who hits it out of the park! ",
+        "poster": "/assets/posters/realcricket.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st Oct 2025, 12:00 AM",
+        "endTime": "3rd Nov 2025, 11:59 PM",
+        "rulesDoc": null,
+        "venue": "Lords",
+        "type": "Single",
+        "coordinators": [
+            {
+                "name": "Arka Mondal",
+                "phone": "9474762287"
+            }
+        ]
     },
     {
-      "_id": "hacksprint",
-      "name": "HackSprint",
-      "description": "🎓 Exclusive for IIEST Shibpur Students! HackSprint Kolkata Edition — National Level Hackathon is happening at IIEST Shibpur, West Bengal on 1st & 2nd November 2025, powered by SR Technologies.",
-      "description_points": [
-        "🔥 Get an exclusive 50% discount on your registration — only for IIEST students!",
-        "🎯 Workshops on Artificial Intelligence / Machine Learning (31st October)",
-        "🌐 MERN Stack Development with AI Integration",
-        "💡 Hackathon Domains: AI & ML | Generative AI | MERN + AI | Healthcare | Open Innovation",
-        "🏆 Prize Pool: ₹5,00,000/-",
-        "💼 Internships for top-performing teams!",
-        "🏢 Registration fee: 1000₹ for non-IIESTians, 750₹ for IIESTians.",
-        "📜 After registration fill this gform: https://forms.gle/oNfjrjwB5RS2YQwY8"
-      ],
-      "poster": "/assets/posters/hacksprint.webp",
-      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-      "registrationUrl": "https://hacksprint.in/",
-      "startTime": "1st Nov 2025, 12:00 AM",
-      "endTime": "2nd Nov 2025, 11:59 PM",
-      "rulesDoc": null,
-      "venue": "TBD",
-      "type": "Mixed",
-      "coordinators": [
-        {
-          "name": "Shreyansh Srivastva",
-          "phone": "8478090242"
-        },
-        {
-          "name": "Sujaan Sharma",
-          "phone": "9462480435"
-        }
-      ]
+        "_id": "speedcubing-showdown",
+        "name": "Speedcubing Showdown",
+        "description": "Ready, set, twist! 🤩 SOCIT brings you the ultimate Speedcubing Challenge, where quick thinking meets lightning-fast fingers! 🔥 Solve the classic 3x3 Rubik's Cube in record time and prove your mastery over color, logic, and pure focus. 💫 Every second counts as you twist, turn, and snap your way toward perfection — can you beat the clock before anyone else? ⏱️ Whether you're a casual solver or a cubing prodigy, this is your chance to show off those smooth moves and claim your crown as the cube champion! 👑🧠",
+        "poster": "/assets/posters/speedcubingshowdown.webp",
+        "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+        "registrationUrl": "",
+        "startTime": "31st Oct 2025, 12:00 AM",
+        "endTime": "3rd Nov 2025, 11:59 PM",
+        "rulesDoc": null,
+        "venue": "Lords",
+        "type": "Single",
+        "coordinators": [
+            {
+                "name": "Priyanshu Raj",
+                "phone": "7250148414"
+            },
+            {
+                "name": "Sourov Debnath",
+                "phone": "9635674194"
+            }
+        ]
     }
-  ]
-  
+]
