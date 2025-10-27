@@ -227,7 +227,7 @@
     {
         "_id": "hardness-hustle",
         "name": "Hardness Hustle",
-        "description": "Description dropping soon — it's going to be tougher than it sounds!",
+        "description": "Hardness Hustle is where science meets steel and knowledge meets fire! 🔥 In round one, test your fundamentals in an intense quiz covering the depths of material science and heat treatment. 🧠 The top scorers advance to round two — a real lab challenge where you heat, treat, and harden mild steel to perfection. ⚙ Compete for the highest Brinell Hardness Number while following safety, precision, and technique. This is engineering in its purest form — tough, technical, and totally thrilling!",
         "poster": "/assets/posters/hardnesshustle.webp",
         "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
         "registrationUrl": "",
@@ -524,7 +524,7 @@
     {
         "_id": "flashmob",
         "name": "Flashmob",
-        "description": "Description coming soon — expect a surprise that'll light up the crowd!",
+        "description": "Join the Groove with Reflexobeta at INSTRUO 14.0! The stage is calling, the beats are dropping, and you could be part of the madness! Reflexobeta – the dynamic dance society of IIEST Shibpur – is gearing up for an electrifying FLASH MOB, and we’re inviting all the freshers to join in! Whether you’ve got killer moves or just crazy energy, this is your chance to shine, vibe, and make your mark on the biggest stage of INSTRUO 14.0! Dance, connect, and celebrate the spirit of Reflexobeta with pure rhythm and power. No experience? No worries. We’ve got the choreography, the beats, and the energy – all we need is YOU!",
         "poster": "/assets/posters/flashmob.webp",
         "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
         "registrationUrl": "",
@@ -637,7 +637,7 @@
     {
         "_id": "robosoccer",
         "name": "Robosoccer",
-        "description": "Description loading — but you already know it's gonna be robots kicking and chaos scoring!",
+        "description": "Get ready for the ultimate clash of metal and motion! RoboSoccer, one of the most thrilling events of Instruo, brings innovation, precision, and strategy onto the field. Build your own bots, gear them up, and watch them battle it out in an electrifying game of soccer — where every move counts, and every goal is a test of your engineering prowess. Do you have what it takes to design the bot that dominates the arena? Whether you’re a robotics enthusiast, a strategist, or just love the adrenaline of competition, RoboSoccer is your stage to shine. 🏆 Show your skills. Score your goals. Rule the arena.",
         "poster": "/assets/posters/robosoccer.webp",
         "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
         "registrationUrl": "",
@@ -830,7 +830,7 @@
     {
         "_id": "war-of-titans",
         "name": "War of Titans",
-        "description": "Description coming soon — legends will rise, and only one titan will conquer!",
+        "description": "War of Titans is a cerebral battleground that tests your reasoning, awareness, and intellect through rounds of aptitude and analysis. 🧩 Round one measures your problem-solving and logical thinking, while round two challenges your real-world knowledge and current affairs awareness. 🌍 It’s a fusion of intelligence, teamwork, and adaptability — a place where sharp minds rise and quick thinkers reign. 💡 Enter this war of wits and prove that your mind is mightier than the sword! ",
         "poster": "/assets/posters/waroftitans.webp",
         "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
         "registrationUrl": "",
@@ -896,7 +896,7 @@
     {
         "_id": "bgmi",
         "name": "BGMI",
-        "description": "Description dropping soon — ready your squad and gear up for battle!",
+        "description": "Gear up, gamers! 🎮 It’s time to drop into the ultimate BGMI showdown at INSTRUO — where fun meets fierce competition! 💥 Squad up with your buddies, plan your drops, and outsmart your opponents as you chase that sweet Chicken Dinner 🍗. Whether you’re the sneaky sniper, the fearless rusher, or the all-round team player, every move counts! 🧠⚡ Bring your best game, some good vibes, and maybe a little luck — because in this battleground, anything can happen! 🌟 So grab your squad, load up, and let’s see who becomes the last one standing!",
         "poster": "/assets/posters/bgmi.webp",
         "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
         "registrationUrl": "",
