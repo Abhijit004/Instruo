@@ -197,15 +197,19 @@
 }
 
 th {
-    background-color: #080871 !important;
+    background-color: #06296b !important;
     color: #fff !important;
     font-size: 1.1rem !important;
     font-family: 'Inter' !important;
 }
 
 td {
-    background-color: #083a98 !important;
+    background-color: var(--app-background) !important;
     color: #fff !important;
     font-family: 'Inter' !important;
     font-size: 1rem !important;
+}
+
+tr, td, th {
+    border-bottom: 1px solid #ffffff3f !important;
 }
