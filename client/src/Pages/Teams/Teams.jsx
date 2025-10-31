@@ -4,8 +4,40 @@ import teaminfo from '../../assets/Teams/teams.json';
 import Member from '../../Components/Member/Member';
 import TeamsList from '../../Components/TeamsList/TeamsList';
 import { Collapse } from 'antd';
-import { CaretRightOutlined, CaretDownOutlined } from '@ant-design/icons';
+import { CaretRightOutlined, CaretDownOutlined, TeamOutlined } from '@ant-design/icons';
 import GlitchAnimator from '../../Components/GlitchAnimator/GlitchAnimator';
+import {
+  CrownOutlined,
+  DollarOutlined,
+  GiftOutlined,
+  RocketOutlined,
+  RobotOutlined,
+  CarOutlined,
+  CodeOutlined,
+  MobileOutlined,
+  PictureOutlined,
+  NotificationOutlined,
+  HeartOutlined,
+} from '@ant-design/icons';
+
+const GetTeamIcon = ({ teamName }) => {
+  const name = teamName.toLowerCase();
+
+  if (name === 'main coordinator') return <CrownOutlined />;
+  if (name === 'joint coordinator') return <TeamOutlined />;
+  if (name === 'finance') return <DollarOutlined />;
+  if (name === 'sponsorship') return <GiftOutlined />;
+  if (name === 'event') return <RocketOutlined />;
+  if (name === 'robodarshan') return <RobotOutlined />;
+  if (name === 'travel and logistics') return <CarOutlined />;
+  if (name === 'web development') return <CodeOutlined />;
+  if (name === 'app development') return <MobileOutlined />;
+  if (name === 'design and content') return <PictureOutlined />;
+  if (name === 'publicity') return <NotificationOutlined />;
+  if (name === 'volunteer') return <HeartOutlined />;
+
+  return <TeamOutlined />;
+};
 
 const CustomExpandIcon = ({ isActive }) => {
   return isActive ? (
@@ -20,7 +52,7 @@ const Teams = () => {
   for (let team of teaminfo) {
     items.push({
       key: team.id,
-      label: team.name,
+      label: <div className='teamheading'>{GetTeamIcon({ teamName: team.name })} {team.name}</div>,
       children: <TeamsList teamsData={team.members} />,
     });
   }
@@ -75,6 +107,7 @@ const Teams = () => {
         defaultActiveKey={1}
         size="large"
         expandIcon={({ isActive }) => <CustomExpandIcon isActive={isActive} />}
+        expandIconPosition={'end'}
       />
     </section>
   );
