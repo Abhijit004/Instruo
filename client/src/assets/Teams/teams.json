@@ -32,7 +32,7 @@
             {
                 "name": "Pranjal Diwakar",
                 "position": "Executive",
-                "img": "./assets/Team/pranjal_diwaka.webp"
+                "img": "./assets/Team/pranjal_diwakar.webp"
             }
         ]
     },
@@ -46,9 +46,9 @@
                 "img": "./assets/Team/saurav_kumar.webp"
             },
             {
-                "name": "Shreyansh Srivastva",
+                "name": "Shreyansh Srivastava",
                 "position": "Head",
-                "img": "./assets/Team/shreyansh_srivastva.webp"
+                "img": "./assets/Team/shreyansh_srivastava.webp"
             },
             {
                 "name": "Arman Chaudhary",
@@ -177,9 +177,9 @@
                 "img": "./assets/Team/umashankar.webp"
             },
             {
-                "name": "Varun Chaudhary",
+                "name": "Talapaneni Varun Chowdary ",
                 "position": "Head",
-                "img": "./assets/Team/varun_chaudhary.webp"
+                "img": "./assets/Team/talapaneni_varun_chowdary.webp"
             },
 
             {
@@ -271,9 +271,9 @@
         "name": "Design and Content",
         "members": [
             {
-                "name": "Sandeep Sankaru",
+                "name": "Sandeep Sankuru",
                 "position": "Head",
-                "img": "./assets/Team/sandeep_sankaru.webp"
+                "img": "./assets/Team/sandeep_sankuru.webp"
             },
             {
                 "name": "Shinjini Roy",

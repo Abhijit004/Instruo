@@ -1,19 +1,61 @@
 import React, { useEffect, useState } from 'react';
 import './SingleEvent.css';
 import { useParams, useNavigate } from 'react-router-dom';
-import CustomAvatar from './CustomAvatar';
 import allEvents from '../../assets/events.json';
-import allPosters from "../../assets/event_to_poster.json"
+import allPosters from '../../assets/event_to_poster.json';
 import { Alert } from 'antd';
 import GlitchAnimator from '../../Components/GlitchAnimator/GlitchAnimator';
-import { FieldTimeOutlined, EnvironmentOutlined } from '@ant-design/icons';
+import { FieldTimeOutlined, EnvironmentOutlined, TeamOutlined, ScheduleOutlined } from '@ant-design/icons';
 import PageNotFound from '../PageNotFound/PageNotFound';
 import CustomButton from '../../Components/CustomButton/CustomButton';
-import RoundsTable from './RoundsTable';
+import CustomTable from './CustomTable';
+
+const RoundColumns = [
+    {
+        title: 'RNo',
+        dataIndex: 'roundNumber',
+        key: 'roundNumber',
+        responsive: ['xs', 'sm', 'md', 'lg'],
+    },
+    {
+        title: 'Start Time',
+        dataIndex: 'startTime',
+        key: 'startTime',
+        render: (text) => text,
+        responsive: ['xs', 'sm', 'md', 'lg'],
+    },
+    {
+        title: 'End Time',
+        dataIndex: 'endTime',
+        key: 'endTime',
+        render: (text) => text,
+        responsive: ['xs', 'sm', 'md', 'lg'],
+    },
+    {
+        title: 'Location',
+        dataIndex: 'location',
+        key: 'location',
+        responsive: ['xs', 'sm', 'md', 'lg'],
+    },
+];
+
+const CoordColumns = [
+    {
+        title: 'Name',
+        dataIndex: 'name',
+        key: 'name',
+    },
+    {
+        title: 'Phone',
+        dataIndex: 'phone',
+        key: 'phone',
+    },
+];
+
 const SingleEvent = () => {
     const { eventID } = useParams();
     const oneEvent = allEvents.find((ev) => ev._id === eventID);
-    console.log(allPosters[oneEvent.poster.split("/")[3].split(".")[0]])
+    console.log(allPosters[oneEvent.poster.split('/')[3].split('.')[0]]);
 
     if (!oneEvent) {
         return <PageNotFound />;
@@ -36,8 +78,15 @@ const SingleEvent = () => {
                 <div className="event-single-overlay">
                     <div className="eposter">
                         {/* <div className="regfee">Fee ₹ {oneEvent?.registrationFee || "--"}</div> */}
-                        <img src={allPosters[oneEvent.poster.split("/")[3].split(".")[0]]} alt={'Poster'} />
-                    </div>  
+                        <img
+                            src={
+                                allPosters[
+                                    oneEvent.poster.split('/')[3].split('.')[0]
+                                ]
+                            }
+                            alt={'Poster'}
+                        />
+                    </div>
                     <div className="event-single-header">
                         <span className="event-single-badge">
                             {oneEvent?.type || 'Type TBD'}
@@ -49,7 +98,16 @@ const SingleEvent = () => {
                         </p>
                         <div className="eposter-mobile">
                             {/* <div className="regfee">Fee ₹ {oneEvent?.registrationFee || "--"}</div> */}
-                            <img src={allPosters[oneEvent.poster.split("/")[3].split(".")[0]]} alt={'Poster'} />
+                            <img
+                                src={
+                                    allPosters[
+                                        oneEvent.poster
+                                            .split('/')[3]
+                                            .split('.')[0]
+                                    ]
+                                }
+                                alt={'Poster'}
+                            />
                         </div>
                     </div>
                     <div>
@@ -107,33 +165,25 @@ const SingleEvent = () => {
                 </ul>
             </div>
 
-            <div
-                className="coordinators event-single-content"
-                style={{ paddingTop: 0 }}
-            >
-                <div className="schedule-title">Coordinators</div>
-                <div className="coords-list">
-                    {oneEvent?.coordinators?.map((e, i) => {
-                        console.log('coordinator');
-                        console.log(e);
-                        return (
-                            <CustomAvatar
-                                title={e.name}
-                                phone={e.phone}
-                                src={e.image}
-                            />
-                        );
-                    })}
+            {oneEvent?.coordinators && oneEvent.coordinators.length > 0 && (
+                <div className="coordinators" style={{padding: '1rem'}}>
+                    <div style={{fontSize: '2rem', fontWeight: 'bold'}}><TeamOutlined /> Coordinators</div>
+                    <CustomTable rows={oneEvent.coordinators} columns = {CoordColumns}/>
                 </div>
-            </div>
+            )}
 
             {oneEvent.rounds && (
                 <div className="rounds" style={{ padding: '1rem' }}>
-                    <div className="schedule-title">Event Rounds</div>
+                    <div className="schedule-title"><ScheduleOutlined /> Event Rounds</div>
                     <div className="rounds-list">
-                        <RoundsTable rounds={oneEvent.rounds} />
+                        <CustomTable rows={oneEvent.rounds} columns = {RoundColumns}/>
                         {oneEvent?._id === 'eofool' && (
-                            <span style={{ fontSize: '0.1rem', color: "transparent" }}>
+                            <span
+                                style={{
+                                    fontSize: '0.1rem',
+                                    color: 'transparent',
+                                }}
+                            >
                                 EOF{'{f0und_m3_f!nally}'}
                             </span>
                         )}
