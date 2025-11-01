@@ -76,21 +76,11 @@
                 "position": "Head",
                 "img": "./assets/Team/shivansh_mahobiya.webp"
             },
-            {
-                "name": "Archit Ranjan",
-                "position": "Head",
-                "img": "./assets/Team/archit_ranjan.webp"
-            },
 
             {
                 "name": "Harsh Agrawal",
                 "position": "Head",
                 "img": "./assets/Team/harsh_agrawal.webp"
-            },
-            {
-                "name": "Pranjal Batesar",
-                "position": "Head",
-                "img": "./assets/Team/pranjal_batesar.webp"
             },
             {
                 "name": "Shloka vyas",
@@ -101,11 +91,6 @@
                 "name": "Ayush Sarkar",
                 "position": "Executive",
                 "img": "./assets/Team/ayush_sarkar.webp"
-            },
-            {
-                "name": "Anjali Kumari",
-                "position": "Executive",
-                "img": "./assets/Team/anjali_kumari.webp"
             },
             {
                 "name": "Gourav Devpura",
@@ -158,11 +143,6 @@
                 "name": "Ankita Balu Sapkal",
                 "position": "Executive",
                 "img": "./assets/Team/ankita_balu_sapkal.webp"
-            },
-            {
-                "name": "Sanket Mahajan",
-                "position": "Executive",
-                "img": "./assets/Team/sanket_mahajan.webp"
             }
         ]
     },
@@ -175,12 +155,6 @@
                 "position": "Head",
                 "img": "./assets/Team/anurag_chaurasia.webp"
             },
-            {
-                "name": "Harshit kasera",
-                "position": "Head",
-                "img": "./assets/Team/harshit_kasera.webp"
-            },
-
             {
                 "name": "Naveen jakkula",
                 "position": "Head",
@@ -302,11 +276,6 @@
                 "img": "./assets/Team/sandeep_sankaru.webp"
             },
             {
-                "name": "Debo Priya Dalal",
-                "position": "Head",
-                "img": "./assets/Team/debo_priya_dalal.webp"
-            },
-            {
                 "name": "Shinjini Roy",
                 "position": "Head",
                 "img": "./assets/Team/shinjini_roy.webp"
@@ -361,16 +330,6 @@
                 "name": "Aditya Raj Verma",
                 "position": "Executive",
                 "img": "./assets/Team/aditya_raj_verma.webp"
-            },
-            {
-                "name": "Ankit Kumar",
-                "position": "Executive",
-                "img": "./assets/Team/ankit_kumar.webp"
-            },
-            {
-                "name": "Raj Bharti",
-                "position": "Executive",
-                "img": "./assets/Team/raj_bharti.webp"
             },
             {
                 "name": "Nirupama Thakur",
